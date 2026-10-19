@@ -20,7 +20,7 @@ export const isCorrect=(q,answer)=>q.answers.includes(answer);
 export function evaluate(questions,answers){
  const byArea=Object.fromEntries(AREAS.map(a=>[a.id,{total:0,correct:0,answered:0}]));
  let correct=0,answered=0;
- for(const q of questions){let a=answers[q.id];byArea[q.area].total++;if(LETTERS.includes(a)){answered++;byArea[q.area].answered++;if(isCorrect(q,a)){correct++;byArea[q.area].correct++;}}}
+ for(const q of questions){let a=answers[q.id];byArea[q.area].total++;if(LETTERS.slice(0,q.options.length).includes(a)){answered++;byArea[q.area].answered++;if(isCorrect(q,a)){correct++;byArea[q.area].correct++;}}}
  return {total:questions.length,answered,correct,incorrect:answered-correct,omitted:questions.length-answered,percentage:questions.length?Math.round(100*correct/questions.length):0,byArea};
 }
 export function remainingSeconds(session,now=Date.now()){return session.mode==='exam'?Math.max(0,Math.ceil((session.deadline-now)/1000)):null;}

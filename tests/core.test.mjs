@@ -4,18 +4,18 @@ import fs from 'node:fs';
 import {AREAS,selectQuestions,evaluate,remainingSeconds,formatTime,normalize,isCorrect,questionStatus} from '../core.mjs';
 const bank=JSON.parse(fs.readFileSync(new URL('../bank.json',import.meta.url)));
 const qs=bank.questions;
-test('bank has 60 distinct source-backed questions and 106 original PDFs',()=>{
- assert.equal(qs.length,60);assert.equal(new Set(qs.map(q=>q.id)).size,60);assert.equal(bank.catalog.length,106);
- for(const q of qs){assert.equal(q.options.length,4);assert(q.explanation.length>50);assert(AREAS.some(a=>a.id===q.area));for(const a of q.answers)assert.match(a,/^[ABCD]$/);assert(fs.existsSync(new URL('../'+q.source,import.meta.url)));assert(fs.existsSync(new URL('../'+q.answerSource,import.meta.url)));if(q.image)assert(fs.existsSync(new URL('../'+q.image.url,import.meta.url)));}
- assert(!qs.some(q=>q.number===16&&q.discipline==='Matemáticas'));
+test('bank has 140 distinct questions and 111 original PDFs with complete references',()=>{
+ assert.equal(qs.length,140);assert.equal(new Set(qs.map(q=>q.id)).size,qs.length);assert.equal(bank.catalog.length,111);
+ for(const q of qs){assert([3,4].includes(q.options.length));assert(q.explanation.length>50,q.id);assert(AREAS.some(a=>a.id===q.area));for(const a of q.answers)assert('ABCD'.slice(0,q.options.length).includes(a));assert(fs.existsSync(new URL('../'+q.source,import.meta.url)),q.source);assert(fs.existsSync(new URL('../'+q.answerSource,import.meta.url)));if(q.image)assert(fs.existsSync(new URL('../'+q.image.url,import.meta.url)));}
+ assert(!qs.some(q=>q.period==='2005-1'&&q.number===16&&q.discipline==='Matemáticas'));
  for(const p of bank.catalog)assert(fs.existsSync(new URL('../'+p.url,import.meta.url)));
 });
 test('mixed sessions balance the five areas, avoid duplicate questions, and do not mutate the bank',()=>{
- const before=qs.map(q=>q.id);for(const n of [1,5,10,20,40,60,80]){const chosen=selectQuestions(qs,{count:n});assert.equal(chosen.length,Math.min(n,60));assert.equal(new Set(chosen.map(q=>q.id)).size,chosen.length);if(n>=5)for(const a of AREAS)assert(chosen.some(q=>q.area===a.id));}
+ const before=qs.map(q=>q.id);for(const n of [1,5,10,20,40,60,80,140,160]){const chosen=selectQuestions(qs,{count:n});assert.equal(chosen.length,Math.min(n,qs.length));assert.equal(new Set(chosen.map(q=>q.id)).size,chosen.length);if(n>=5)for(const a of AREAS)assert(chosen.some(q=>q.area===a.id));}
  assert.deepEqual(qs.map(q=>q.id),before);
 });
 test('area, filtered subset, and small collections never pull unrelated questions',()=>{
- const ten=selectQuestions(qs,{area:'ingles',count:20});assert.equal(ten.length,10);assert(ten.every(q=>q.area==='ingles'));
+ const ten=selectQuestions(qs,{area:'ingles',count:40});assert.equal(ten.length,qs.filter(q=>q.area==='ingles').length);assert(ten.every(q=>q.area==='ingles'));
  const ids=qs.slice(5,8).map(q=>q.id);const selected=selectQuestions(qs,{ids,count:10});assert.equal(selected.length,3);assert(selected.every(q=>ids.includes(q.id)));
  assert.deepEqual(selectQuestions(qs,{ids:[],count:10}),[]);
 });
@@ -32,4 +32,17 @@ test('timer uses an absolute deadline and cannot be reset by reloading serialize
 });
 test('latest attempt determines review status; normalized search handles accents',()=>{
  const q=qs[0];assert.equal(questionStatus(q,{attempts:{}}),'new');assert.equal(questionStatus(q,{attempts:{[q.id]:[{correct:true},{correct:false}]}}),'review');assert.equal(questionStatus(q,{attempts:{[q.id]:[{correct:false},{correct:true}]}}),'correct');assert.equal(normalize('Matemáticas, QUÍMICA'),'matematicas, quimica');
+});
+test('new material adds sixteen exercises per area and keeps answer provenance explicit',()=>{
+ const added=qs.filter(q=>q.period!=='2005-1');assert.equal(added.length,80);
+ for(const a of AREAS)assert.equal(added.filter(q=>q.area===a.id).length,16);
+ assert.equal(added.filter(q=>q.period==='2023-1').length,60);
+ assert.equal(added.filter(q=>q.origin==='original').length,20);
+ for(const q of added){assert.equal(q.answerVerification,'independent');assert(!q.keySheet);assert(!q.keyRow);if(q.origin==='original')assert(q.sourceNote.includes('no es una pregunta oficial'));else assert(q.page>0);}
+ assert(!bank.catalog.some(p=>p.url.includes('ICFES_2025CalA')));
+});
+test('a nonexistent fourth choice on a three-option item is an omission',()=>{
+ const q=qs.find(q=>q.options.length===3);assert(q);
+ const result=evaluate([q],{[q.id]:'D'});assert.equal(result.answered,0);assert.equal(result.omitted,1);assert.equal(result.correct,0);
+ assert.equal(evaluate([q],{[q.id]:q.answers[0]}).percentage,100);
 });

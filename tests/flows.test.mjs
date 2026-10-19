@@ -24,3 +24,24 @@ test('simulation hides feedback, allows changes, expires automatically and rejec
 test('navigation does not discard a session and the background timer still finishes it',()=>{const h=harness();h.run("startSession({count:10,mode:'exam',minutes:1});location.hash='#inicio';render(false);");assert.equal(h.run('state.session.ids.length'),10);h.setTime(1070000);h.tick();assert.equal(h.run('state.session'),null);assert.equal(h.run('state.history.length'),1);assert.equal(h.run('state.history[0].summary.omitted'),10);});
 test('filtering and empty selections work, including saved-only questions',()=>{const h=harness();assert.equal(h.run("filter={search:'ebullición',area:'ciencias',status:'all',page:1};matchingQuestions().length"),3);assert.equal(h.run("filter.search='not-a-real-question';matchingQuestions().length"),0);assert.equal(h.run("filter.search='';savedBankOnly=true;matchingQuestions().length"),0);const id=bank.questions.find(q=>q.area==='ciencias').id;h.run(`state.bookmarks=['${id}'];`);assert.equal(h.run('matchingQuestions().length'),1);h.run("filter.status='new'");assert.equal(h.run('matchingQuestions().length'),1);});
 test('progress import rejects bad exports and recalculates imported scores',()=>{const h=harness();assert.throws(()=>h.run("validateImport({version:1})"));h.run("startSession({count:5,mode:'learn'});finishSession();");const exported=JSON.parse(h.run("JSON.stringify({application:'punto',version:1,progress:state})"));exported.progress.history[0].summary.percentage=100;h.run(`__copy=${JSON.stringify(exported)}`);assert.equal(h.run('validateImport(__copy).history[0].summary.percentage'),0);assert.equal(h.run('validateImport(__copy).session'),null);});
+test('new years, source labels and counts render without old-key placeholders',()=>{
+ const h=harness();assert(h.run('home()').includes('140'));assert(h.run('sourcesView()').includes('111'));
+ for(const q of bank.questions.filter(q=>q.period!=='2005-1')){
+  const markup=h.run(`sourceMarkup(getQuestion('${q.id}'))+feedbackMarkup(getQuestion('${q.id}'),'${q.answers[0]}')`);
+  assert(!markup.includes('undefined'),q.id);assert(!markup.includes('fila null'),q.id);assert(!markup.includes('2005-1'),q.id);assert(markup.includes('Solución razonada'),q.id);
+  if(q.origin==='original')assert(!markup.includes('#page='),q.id);
+ }
+ assert.equal(h.run("filter={search:'2023',area:'all',status:'all',page:1};matchingQuestions().length"),60);
+});
+test('three-option practice rejects an absent answer and persists a valid answer',()=>{
+ const h=harness(),q=bank.questions.find(q=>q.options.length===3);
+ h.run(`startSession({ids:['${q.id}'],count:1,mode:'learn'});render(false);`);
+ h.click('answer',{letter:'D'});assert.equal(h.run(`state.session.answers['${q.id}']`),undefined);
+ h.click('answer',{letter:q.answers[0]});h.click('check-answer');assert.equal(h.run(`state.attempts['${q.id}'][0].correct`),true);
+ h.click('confirm-finish');assert.equal(h.run('state.history[0].summary.percentage'),100);
+});
+test('progress import retains sessions longer than sixty questions',()=>{
+ const h=harness();h.run("startSession({count:140,mode:'learn'});finishSession();");
+ h.run("__copy=JSON.parse(JSON.stringify({application:'punto',version:1,progress:state}));");
+ assert.equal(h.run('validateImport(__copy).history[0].ids.length'),140);
+});

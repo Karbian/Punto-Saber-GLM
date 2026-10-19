@@ -1,0 +1,2395 @@
+{
+  "questions": [
+    {
+      "id": "icfes-2023-1-matematicas-1",
+      "number": 1,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Cinco casas y sus pisos",
+      "prompt": "Cinco casas tienen cantidades distintas de pisos. La más alta tiene cinco pisos. Si cada casa tiene al menos un piso, ¿cuántos pisos hay en total?",
+      "options": [
+        "9",
+        "15",
+        "20",
+        "25"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Los cinco números enteros positivos distintos que no superan 5 son 1, 2, 3, 4 y 5. Al sumarlos se obtiene 15.",
+      "topic": "Cinco casas y sus pisos",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-3",
+      "number": 3,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 3,
+      "title": "Relaciones de compra y venta",
+      "prompt": "La tabla resume las relaciones comerciales. ¿Qué relación del país W se deduce de ella?",
+      "options": [
+        "No vende ni compra a los países de la tabla.",
+        "No vende; compra a P y R.",
+        "Vende a P y R; no se registra que compre a los países de la tabla.",
+        "Vende a R, V y Q; compra a T y R."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "P y R incluyen a W entre sus proveedores, por lo que W les vende. W no aparece entre los compradores de los cuatro países.",
+      "topic": "Relaciones de compra y venta",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "table": {
+        "headers": [
+          "País",
+          "Vende a",
+          "Compra de"
+        ],
+        "rows": [
+          [
+            "P",
+            "P, T",
+            "S, V, P, W"
+          ],
+          [
+            "Q",
+            "U, Q, T, R",
+            "V, Q"
+          ],
+          [
+            "R",
+            "T, R",
+            "R, V, W, Q"
+          ],
+          [
+            "S",
+            "P, U, T, S",
+            "S, V"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "icfes-2023-1-matematicas-4",
+      "number": 4,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 3,
+      "title": "Escoger un grupo",
+      "prompt": "Un docente puede formar exactamente 10 grupos distintos de 3 estudiantes, sin importar el orden. ¿Cuántos estudiantes hay disponibles?",
+      "options": [
+        "13",
+        "10",
+        "6",
+        "5"
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "De cinco estudiantes se escogen tres de 5×4×3/(3×2×1)=10 maneras. Con seis se formarían 20 grupos, por lo que no corresponde.",
+      "topic": "Escoger un grupo",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-5",
+      "number": 5,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 3,
+      "title": "Probabilidad de colores",
+      "prompt": "En una bolsa hay 3 bolas rojas, 3 negras y 12 blancas. Se afirma que los tres colores tienen la misma probabilidad de salir al sacar una bola al azar. ¿Es verdadera la afirmación?",
+      "options": [
+        "Sí, el número de bolas de cada color no importa.",
+        "No, porque no se conoce el total de bolas.",
+        "No, porque hay más bolas de un color que de los otros dos.",
+        "Sí, porque las bolas se reparten de igual manera."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "Hay 18 bolas: P(roja)=3/18, P(negra)=3/18 y P(blanca)=12/18. La probabilidad del blanco es mayor.",
+      "topic": "Probabilidad de colores",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-6",
+      "number": 6,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 4,
+      "title": "Una torre inclinada",
+      "prompt": "Una torre se inclina 4° respecto a la vertical. Si el suelo es horizontal, ¿cuál es el ángulo agudo entre la torre y el suelo?",
+      "options": [
+        "4°",
+        "14°",
+        "86°",
+        "90°"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La vertical forma 90° con el suelo horizontal. Al inclinarse 4° desde esa vertical, el ángulo agudo con el suelo es 90°−4°=86°.",
+      "topic": "Una torre inclinada",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-12",
+      "number": 12,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 7,
+      "title": "Interpretar kilómetros por hora",
+      "prompt": "La velocidad máxima de un auto es 100 km/h. Pilar dice que, a esa velocidad, en 100 horas avanzará 1 km. ¿Es verdadera su afirmación?",
+      "options": [
+        "No: en una hora recorrerá 100 km.",
+        "Sí: al dividir la velocidad entre 100 horas se obtiene 1 km.",
+        "No: en 100 horas recorrerá 100 km.",
+        "Sí: dividir 100 entre 1 da 100."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "100 km/h significa 100 kilómetros por cada hora. Si mantiene esa velocidad, en 100 horas recorre 10.000 km, no 1 km.",
+      "topic": "Interpretar kilómetros por hora",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-13",
+      "number": 13,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 7,
+      "title": "Sumar áreas de figuras",
+      "prompt": "Una figura sin superposiciones está formada por dos cuadrados de áreas 64 m² y 36 m² y un triángulo rectángulo cuyos catetos miden 8 m y 6 m. ¿Cuál es el área total?",
+      "options": [
+        "48 m²",
+        "100 m²",
+        "124 m²",
+        "148 m²"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "El triángulo tiene área 8×6/2=24 m². Se suman las tres regiones: 64+36+24=124 m². La hipotenusa no se usa como altura.",
+      "topic": "Sumar áreas de figuras",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-14",
+      "number": 14,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 8,
+      "title": "Evaluar una expresión",
+      "prompt": "La temperatura de un motor es T=3(x+1)+10, con x en minutos. ¿Qué lista corresponde a T cuando x vale 1, 2 y 3, respectivamente?",
+      "options": [
+        "13, 16, 19",
+        "9, 27, 81",
+        "16, 19, 22",
+        "19, 37, 91"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "Se sustituye cada valor en toda la expresión: T(1)=16, T(2)=19 y T(3)=22. El paréntesis obliga a sumar 1 antes de multiplicar por 3.",
+      "topic": "Evaluar una expresión",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-15",
+      "number": 15,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 8,
+      "title": "Dominio de una raíz",
+      "prompt": "La cantidad de bacterias de un cultivo se modela por f(x)=1+√(10−x), donde x representa días transcurridos desde el tratamiento. ¿Para qué valores reales de x está definido el modelo en este contexto?",
+      "options": [
+        "x ≥ 10",
+        "x > 10",
+        "0 ≤ x ≤ 10",
+        "0 < x < 10"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La raíz real exige 10−x≥0, es decir, x≤10. Como x es tiempo transcurrido, también x≥0. Los dos extremos están incluidos.",
+      "topic": "Dominio de una raíz",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-16",
+      "number": 16,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 8,
+      "title": "Dos lanzamientos de dado",
+      "prompt": "Se lanza dos veces un dado justo de seis caras. Se gana si el segundo resultado es el doble del primero. ¿Cuál es la probabilidad de ganar?",
+      "options": [
+        "6/36",
+        "3/36",
+        "1/9",
+        "2/9"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Hay 36 pares ordenados equiprobables. Solo (1,2), (2,4) y (3,6) cumplen la condición. Por eso la probabilidad es 3/36=1/12.",
+      "topic": "Dos lanzamientos de dado",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-18",
+      "number": 18,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 9,
+      "title": "Desplazamientos en una recta",
+      "prompt": "Un pingüino parte de la posición 5 m. Avanza 6 m al oriente, retrocede 2 m al occidente y avanza 3 m al oriente. El oriente es positivo. ¿Cómo se calcula su posición final?",
+      "options": [
+        "6+3−2−5",
+        "6+3−2+5",
+        "6+2−3−5",
+        "6+2−3+5"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "El desplazamiento neto es +6−2+3=+7 m. A la posición inicial se suma ese desplazamiento: 5+7=12 m. Posición y desplazamiento son cantidades diferentes.",
+      "topic": "Desplazamientos en una recta",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-matematicas-20",
+      "number": 20,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2023-1",
+      "page": 10,
+      "title": "Una elipse que es circunferencia",
+      "prompt": "El semieje mayor de una elipse es la mayor distancia de su centro a la curva; el menor es la menor. Si sus medidas son iguales, ¿por qué la elipse es una circunferencia?",
+      "options": [
+        "Porque una elipse con semiejes distintos no es circunferencia.",
+        "Porque no puede garantizarse que las demás distancias sean iguales.",
+        "Porque todas las distancias al centro están entre dos valores iguales y, por tanto, son iguales.",
+        "Porque las distancias al centro siempre son diferentes."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "Si la distancia mínima y la máxima coinciden, toda distancia intermedia tiene ese mismo valor. Una curva cuyos puntos equidistan de un centro es una circunferencia.",
+      "topic": "Una elipse que es circunferencia",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "archive/2023-1/matematicas.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-1",
+      "number": 1,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Comparar tratamientos de residuos",
+      "prompt": "Además de reducir emisiones frente a incinerar el poliuretano a más de 500 °C, ¿qué ventaja de la aplicación directa del hongo se desprende del texto?",
+      "options": [
+        "No requiere la infraestructura especial de un horno de incineración.",
+        "Degrada el material más rápido que un horno.",
+        "No participa de las redes tróficas y por eso infecta a otros organismos.",
+        "Permite convertir inmediatamente el residuo en envases nuevos."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "La aplicación directa evita necesitar hornos especiales. El contexto no ofrece tiempos comparables ni afirma que se fabrique un envase nuevo.",
+      "topic": "Comparar tratamientos de residuos",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Un hongo y el poliuretano",
+        "body": "Los plásticos tienen estructuras químicas diversas. Pestalotiopsis microspora puede usar poliuretano como única fuente de alimento tanto con oxígeno como sin él. Secreta enzimas que rompen un enlace específico del poliuretano. Según el texto, puede aplicarse directamente en zonas de acumulación de este residuo.",
+        "citation": "Síntesis del contexto del cuadernillo de Ciencias Naturales 2023, p. 2."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ciencias-2",
+      "number": 2,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Elegir un medio de cultivo",
+      "prompt": "¿Cuáles medios favorecen la selección del hongo al ofrecer poliuretano como única fuente de alimento?",
+      "options": [
+        "2 y 4",
+        "2 y 3",
+        "1 y 4",
+        "1 y 3"
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "Los medios 2 y 4 solo contienen poliuretano como alimento. El hongo puede crecer con o sin oxígeno; los nutrientes adicionales facilitarían el crecimiento de otros microorganismos.",
+      "topic": "Elegir un medio de cultivo",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Un hongo y el poliuretano",
+        "body": "Los plásticos tienen estructuras químicas diversas. Pestalotiopsis microspora puede usar poliuretano como única fuente de alimento tanto con oxígeno como sin él. Secreta enzimas que rompen un enlace específico del poliuretano. Según el texto, puede aplicarse directamente en zonas de acumulación de este residuo.",
+        "citation": "Síntesis del contexto del cuadernillo de Ciencias Naturales 2023, p. 2."
+      },
+      "table": {
+        "headers": [
+          "Medio",
+          "Alimento",
+          "Oxígeno"
+        ],
+        "rows": [
+          [
+            "1",
+            "Nutrientes y poliuretano",
+            "Con oxígeno"
+          ],
+          [
+            "2",
+            "Solo poliuretano",
+            "Sin oxígeno"
+          ],
+          [
+            "3",
+            "Nutrientes y poliuretano",
+            "Sin oxígeno"
+          ],
+          [
+            "4",
+            "Solo poliuretano",
+            "Con oxígeno"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "icfes-2023-1-ciencias-3",
+      "number": 3,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Evitar generalizaciones científicas",
+      "prompt": "¿Se puede concluir que el hongo degrada todos los plásticos de uso común?",
+      "options": [
+        "No: las estructuras son distintas y su enzima actúa sobre un enlace específico.",
+        "Sí: crecer sin oxígeno demuestra que degrada todos los plásticos.",
+        "No: únicamente puede reproducirse si consume todos los tipos de plástico.",
+        "Sí: toda enzima secretada degrada cualquier material."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "Una capacidad demostrada para el poliuretano no prueba la misma capacidad frente a otros enlaces. Se necesitarían pruebas específicas con otros polímeros.",
+      "topic": "Evitar generalizaciones científicas",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Un hongo y el poliuretano",
+        "body": "Los plásticos tienen estructuras químicas diversas. Pestalotiopsis microspora puede usar poliuretano como única fuente de alimento tanto con oxígeno como sin él. Secreta enzimas que rompen un enlace específico del poliuretano. Según el texto, puede aplicarse directamente en zonas de acumulación de este residuo.",
+        "citation": "Síntesis del contexto del cuadernillo de Ciencias Naturales 2023, p. 2."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ciencias-4",
+      "number": 4,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 3,
+      "title": "El sonido y el medio",
+      "prompt": "Un detector puede estar en aire o agua y mide frecuencia, longitud de onda, velocidad e intensidad del sonido. En condiciones comparables, ¿qué magnitud permite distinguir el medio por su valor característico?",
+      "options": [
+        "Frecuencia",
+        "Longitud de onda",
+        "Velocidad de propagación",
+        "Intensidad"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La velocidad de propagación depende de las propiedades del medio y difiere claramente entre aire y agua. La frecuencia depende de la fuente; la intensidad también varía con la distancia y la energía emitida.",
+      "topic": "El sonido y el medio",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-5",
+      "number": 5,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 3,
+      "title": "Velocidad y aceleración",
+      "prompt": "La velocidad de una moto es v(t)=5+4t, en m/s, con t en segundos. ¿Cómo es su movimiento?",
+      "options": [
+        "Velocidad constante de 5 m/s.",
+        "Uniformemente acelerado, con aceleración de 4 m/s².",
+        "Velocidad constante porque solo se da una ecuación de velocidad.",
+        "Uniformemente acelerado únicamente porque su velocidad inicial no es cero."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La velocidad crece 4 m/s cada segundo: la pendiente es una aceleración constante de 4 m/s². El valor inicial 5 no determina por sí solo si hay aceleración.",
+      "topic": "Velocidad y aceleración",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-7",
+      "number": 7,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 4,
+      "title": "Clasificar mezclas",
+      "prompt": "La sustancia 1 es un líquido uniforme de una fase que al destilarlo se separa en dos líquidos. La sustancia 2 se separa en dos fases al dejarla en un recipiente. ¿Cómo se clasifican?",
+      "options": [
+        "1 homogénea; 2 heterogénea.",
+        "1 heterogénea; 2 homogénea.",
+        "Ambas homogéneas.",
+        "Ambas heterogéneas."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "La primera tiene composición uniforme y se separa mediante destilación: es una mezcla homogénea. La segunda presenta fases distinguibles y es heterogénea.",
+      "topic": "Clasificar mezclas",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-9",
+      "number": 9,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Variación en la meiosis",
+      "prompt": "Durante la meiosis hay duplicación cromosómica, entrecruzamiento entre cromátidas no hermanas y dos divisiones celulares. ¿Cuál de estos procesos recombina alelos y contribuye a la variación genética?",
+      "options": [
+        "La presencia de genes en los cromosomas.",
+        "El entrecruzamiento entre cromátidas no hermanas.",
+        "La duplicación de cromosomas por sí sola.",
+        "La división del citoplasma."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "El entrecruzamiento intercambia segmentos de cromátidas de cromosomas homólogos y genera nuevas combinaciones de alelos. Copiar ADN o dividir citoplasma no realiza ese intercambio.",
+      "topic": "Variación en la meiosis",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-10",
+      "number": 10,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Conservar los átomos",
+      "prompt": "¿Cuál ecuación para formar cloruro de sodio conserva el número de átomos de cada elemento?",
+      "options": [
+        "2 Na + Cl₂ → NaCl",
+        "2 Na + Cl₂ → 2 NaCl",
+        "Na + 2 Cl₂ → 2 NaCl",
+        "2 Na + 2 Cl₂ → 2 NaCl"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "En 2 Na + Cl₂ → 2 NaCl hay dos átomos de sodio y dos de cloro a ambos lados. Los coeficientes multiplican toda la fórmula química.",
+      "topic": "Conservar los átomos",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-12",
+      "number": 12,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Revisar un modelo atómico",
+      "prompt": "Dalton consideraba que el átomo era una esfera sólida indivisible. ¿Qué hallazgo obliga a revisar esa idea?",
+      "options": [
+        "Que cada elemento tiene una forma geométrica macroscópica distinta.",
+        "La existencia de cargas y partículas en el interior del átomo.",
+        "La existencia de líquidos y gases además de sólidos.",
+        "Que cada átomo cambia de elemento espontáneamente con el tiempo."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Descubrir partículas subatómicas y cargas internas contradice que el átomo carezca de partes. Los estados macroscópicos de la materia no explican esa estructura interna.",
+      "topic": "Revisar un modelo atómico",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-13",
+      "number": 13,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Geometría molecular",
+      "prompt": "El NH₃ tiene tres enlaces y un par libre alrededor del nitrógeno. Al formar NH₄⁺ hay cuatro enlaces y ningún par libre. Según la tabla, ¿qué geometría corresponde?",
+      "options": [
+        "Tetraédrica.",
+        "Pirámide trigonal.",
+        "Angular.",
+        "Lineal."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "Cuatro enlaces y ningún par libre alrededor del átomo central corresponden a una distribución tetraédrica. La pirámide trigonal requiere un par no enlazante.",
+      "topic": "Geometría molecular",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "table": {
+        "headers": [
+          "Geometría",
+          "Enlaces",
+          "Pares libres"
+        ],
+        "rows": [
+          [
+            "Tetraédrica",
+            "4",
+            "0"
+          ],
+          [
+            "Pirámide trigonal",
+            "3",
+            "1"
+          ],
+          [
+            "Angular",
+            "2",
+            "2"
+          ],
+          [
+            "Lineal",
+            "2",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "icfes-2023-1-ciencias-16",
+      "number": 16,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 8,
+      "title": "Sumar fuerzas horizontales",
+      "prompt": "En el modelo de un velero, el viento ejerce 20 N hacia la derecha, el motor 30 N hacia la derecha y el río 40 N hacia la izquierda. ¿Por qué la fuerza resultante apunta a la derecha?",
+      "options": [
+        "Porque basta con que haya un motor, sin importar las otras fuerzas.",
+        "Porque las tres fuerzas se cancelan exactamente.",
+        "Porque 20 N + 30 N supera a 40 N.",
+        "Porque siempre ganan dos fuerzas contra una, sin importar sus valores."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "Al usar signos opuestos por dirección, la resultante es 20+30−40=10 N hacia la derecha. Hay que sumar magnitudes con dirección, no contar flechas.",
+      "topic": "Sumar fuerzas horizontales",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ciencias-17",
+      "number": 17,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2023-1",
+      "page": 8,
+      "title": "Fuerza de varias personas",
+      "prompt": "Cada persona ejerce 100 N en la misma dirección y las fuerzas se suman. Se requieren al menos 490 N para mover una caja. ¿Cuál es el mínimo de personas necesarias?",
+      "options": [
+        "Una.",
+        "Tres.",
+        "Cuatro.",
+        "Cinco."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "Cuatro personas aportan 400 N y no alcanzan 490 N. Cinco aportan 500 N. Se necesita el entero mínimo cuyo producto por 100 sea al menos 490.",
+      "topic": "Fuerza de varias personas",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "archive/2023-1/ciencias.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-lectura-5",
+      "number": 5,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 4,
+      "title": "Distinguir fuente y portavoz",
+      "prompt": "¿Cuál es el aporte de Reuters al contenido del artículo?",
+      "options": [
+        "Informar, como determinación propia, que Novoselov es el físico más joven premiado desde 1973.",
+        "Informar que el Comité Nobel ha determinado que Novoselov es el físico más joven premiado desde 1973.",
+        "Informar que Geim es el físico más joven premiado desde 1973.",
+        "Informar que el Comité Nobel ha determinado que Geim es el físico más joven premiado desde 1973."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Reuters comunica una información atribuida al Comité Nobel y referida a Novoselov. Hay que distinguir quién transmite la noticia de la fuente a la que se atribuye el dato.",
+      "topic": "Distinguir fuente y portavoz",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Grafeno y Premio Nobel",
+        "body": "Andre Geim y Konstantin Novoselov, científicos de la Universidad de Manchester (Reino Unido), han sido distinguidos este año con el Premio Nobel de Física “por sus experimentos fundamentales sobre el material bidimensional grafeno”, según ha anunciado hoy el Comité Nobel de la Academia de las Ciencias de Suecia. Una lámina de carbono, de un átomo de grosor, está detrás del Nobel de Física de este año. Los dos galardonados, Geim y Novoselov, han demostrado que el carbono en esa configuración plana tiene propiedades extraordinarias originadas en el mundo de la física cuántica. El grafeno es un nuevo material, extremadamente delgado y resistente que, como conductor de la electricidad, se comporta como el cobre, y como conductor de calor, supera a cualquier otro material conocido. Es casi completamente transparente y tan denso que ni siquiera el helio, el átomo de gas más pequeño, puede atravesarlo, explica la Fundación Nobel. Geim y Novoselov, dos científicos europeos –Geim tiene nacionalidad holandesa y Novoselov es ruso-británico– obtuvieron el grafeno a partir del grafito normal, el material de las minas de los lápices, y lograron una lámina de un grosor de solo un átomo. Muchos pensaban entonces que era imposible que un material así fuera estable. Sin embargo, a partir de los trabajos de estos dos científicos, los físicos pueden estudiar ahora una nueva clase de materiales bidimensionales con propiedades únicas. El grafeno también tiene una amplia variedad de aplicaciones posibles, incluida la fabricación de nuevos materiales y de dispositivos electrónicos avanzados. Los transistores de grafeno pueden ser sustancialmente más rápidos que los actuales de silicio, con lo que se podrán fabricar ordenadores más eficaces. También, como es transparente y un buen conductor, se vislumbran aplicaciones en pantallas de dispositivos electrónicos e incluso paneles solares. Geim, en una conferencia vía telefónica, ha declarado que no esperaba el premio y que intentará evitar que esta distinción cambie su rutina. “Mi plan para hoy es ir al trabajo y terminar un artículo que tengo pendiente”, ha señalado. El Comité Nobel ha informado que Novoselov, de 36 años, es el físico más joven premiado con un Nobel desde 1973, informa la agencia Reuters. Geim y Novoselov (el segundo fue alumno de doctorado del primero) deben disfrutar con sus experimentos. Los realizados para obtener el grafeno sorprenden por su sencillez conceptual (ir separando capas de grafito hasta lograr una sola aislada, que es el nuevo material). Pero ya antes habían hecho experimentos peculiares. En 1997, Geim logró hacer levitar una rana en un campo magnético, “una forma ingeniosa de ilustrar los principios de la física”, dice la Fundación Nobel. Por aquellos experimentos con la rana, recibieron en 2000 el IgNobel de Física, uno de los galardones que se consideran Nobel alternativos y que se dan desde hace 20 años para aquellos trabajos “que primero hacen reír y después pensar”. “Creo que soy el primero que ha obtenido ambos Nobel y estoy muy orgulloso de los dos premios”, ha comentado hoy Geim. Tomado y adaptado de: http://sociedad.elpais.com/sociedad/2010/10/05/actualidad/1286229601_850215.html.",
+        "citation": "Texto del cuadernillo, pp. 4–5. Tomado y adaptado de El País (5 de octubre de 2010). Las referencias temporales corresponden a ese artículo."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-6",
+      "number": 6,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 4,
+      "title": "Grafeno y grafito",
+      "prompt": "Según el artículo, el grafeno se diferencia del material de la mina de un lápiz porque",
+      "options": [
+        "proviene del carbono y la mina no.",
+        "conduce electricidad y toda mina es aislante.",
+        "es grafito y la mina no contiene grafito.",
+        "consiste en una sola capa de grafito, mientras la mina contiene varias."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "El artículo explica que se separan capas de grafito hasta obtener una lámina de un átomo de grosor. La diferencia destacada es la disposición en capas, no un elemento químico diferente.",
+      "topic": "Grafeno y grafito",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Grafeno y Premio Nobel",
+        "body": "Andre Geim y Konstantin Novoselov, científicos de la Universidad de Manchester (Reino Unido), han sido distinguidos este año con el Premio Nobel de Física “por sus experimentos fundamentales sobre el material bidimensional grafeno”, según ha anunciado hoy el Comité Nobel de la Academia de las Ciencias de Suecia. Una lámina de carbono, de un átomo de grosor, está detrás del Nobel de Física de este año. Los dos galardonados, Geim y Novoselov, han demostrado que el carbono en esa configuración plana tiene propiedades extraordinarias originadas en el mundo de la física cuántica. El grafeno es un nuevo material, extremadamente delgado y resistente que, como conductor de la electricidad, se comporta como el cobre, y como conductor de calor, supera a cualquier otro material conocido. Es casi completamente transparente y tan denso que ni siquiera el helio, el átomo de gas más pequeño, puede atravesarlo, explica la Fundación Nobel. Geim y Novoselov, dos científicos europeos –Geim tiene nacionalidad holandesa y Novoselov es ruso-británico– obtuvieron el grafeno a partir del grafito normal, el material de las minas de los lápices, y lograron una lámina de un grosor de solo un átomo. Muchos pensaban entonces que era imposible que un material así fuera estable. Sin embargo, a partir de los trabajos de estos dos científicos, los físicos pueden estudiar ahora una nueva clase de materiales bidimensionales con propiedades únicas. El grafeno también tiene una amplia variedad de aplicaciones posibles, incluida la fabricación de nuevos materiales y de dispositivos electrónicos avanzados. Los transistores de grafeno pueden ser sustancialmente más rápidos que los actuales de silicio, con lo que se podrán fabricar ordenadores más eficaces. También, como es transparente y un buen conductor, se vislumbran aplicaciones en pantallas de dispositivos electrónicos e incluso paneles solares. Geim, en una conferencia vía telefónica, ha declarado que no esperaba el premio y que intentará evitar que esta distinción cambie su rutina. “Mi plan para hoy es ir al trabajo y terminar un artículo que tengo pendiente”, ha señalado. El Comité Nobel ha informado que Novoselov, de 36 años, es el físico más joven premiado con un Nobel desde 1973, informa la agencia Reuters. Geim y Novoselov (el segundo fue alumno de doctorado del primero) deben disfrutar con sus experimentos. Los realizados para obtener el grafeno sorprenden por su sencillez conceptual (ir separando capas de grafito hasta lograr una sola aislada, que es el nuevo material). Pero ya antes habían hecho experimentos peculiares. En 1997, Geim logró hacer levitar una rana en un campo magnético, “una forma ingeniosa de ilustrar los principios de la física”, dice la Fundación Nobel. Por aquellos experimentos con la rana, recibieron en 2000 el IgNobel de Física, uno de los galardones que se consideran Nobel alternativos y que se dan desde hace 20 años para aquellos trabajos “que primero hacen reír y después pensar”. “Creo que soy el primero que ha obtenido ambos Nobel y estoy muy orgulloso de los dos premios”, ha comentado hoy Geim. Tomado y adaptado de: http://sociedad.elpais.com/sociedad/2010/10/05/actualidad/1286229601_850215.html.",
+        "citation": "Texto del cuadernillo, pp. 4–5. Tomado y adaptado de El País (5 de octubre de 2010). Las referencias temporales corresponden a ese artículo."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-7",
+      "number": 7,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 4,
+      "title": "El sentido de bidimensional",
+      "prompt": "En el texto se llama bidimensional al grafeno porque",
+      "options": [
+        "tiene alta densidad.",
+        "es estable y resistente.",
+        "su lámina tiene un átomo de grosor.",
+        "es casi transparente."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La referencia a una configuración plana y a una lámina de un átomo de grosor explica el uso de bidimensional. La resistencia y la transparencia son otras propiedades.",
+      "topic": "El sentido de bidimensional",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Grafeno y Premio Nobel",
+        "body": "Andre Geim y Konstantin Novoselov, científicos de la Universidad de Manchester (Reino Unido), han sido distinguidos este año con el Premio Nobel de Física “por sus experimentos fundamentales sobre el material bidimensional grafeno”, según ha anunciado hoy el Comité Nobel de la Academia de las Ciencias de Suecia. Una lámina de carbono, de un átomo de grosor, está detrás del Nobel de Física de este año. Los dos galardonados, Geim y Novoselov, han demostrado que el carbono en esa configuración plana tiene propiedades extraordinarias originadas en el mundo de la física cuántica. El grafeno es un nuevo material, extremadamente delgado y resistente que, como conductor de la electricidad, se comporta como el cobre, y como conductor de calor, supera a cualquier otro material conocido. Es casi completamente transparente y tan denso que ni siquiera el helio, el átomo de gas más pequeño, puede atravesarlo, explica la Fundación Nobel. Geim y Novoselov, dos científicos europeos –Geim tiene nacionalidad holandesa y Novoselov es ruso-británico– obtuvieron el grafeno a partir del grafito normal, el material de las minas de los lápices, y lograron una lámina de un grosor de solo un átomo. Muchos pensaban entonces que era imposible que un material así fuera estable. Sin embargo, a partir de los trabajos de estos dos científicos, los físicos pueden estudiar ahora una nueva clase de materiales bidimensionales con propiedades únicas. El grafeno también tiene una amplia variedad de aplicaciones posibles, incluida la fabricación de nuevos materiales y de dispositivos electrónicos avanzados. Los transistores de grafeno pueden ser sustancialmente más rápidos que los actuales de silicio, con lo que se podrán fabricar ordenadores más eficaces. También, como es transparente y un buen conductor, se vislumbran aplicaciones en pantallas de dispositivos electrónicos e incluso paneles solares. Geim, en una conferencia vía telefónica, ha declarado que no esperaba el premio y que intentará evitar que esta distinción cambie su rutina. “Mi plan para hoy es ir al trabajo y terminar un artículo que tengo pendiente”, ha señalado. El Comité Nobel ha informado que Novoselov, de 36 años, es el físico más joven premiado con un Nobel desde 1973, informa la agencia Reuters. Geim y Novoselov (el segundo fue alumno de doctorado del primero) deben disfrutar con sus experimentos. Los realizados para obtener el grafeno sorprenden por su sencillez conceptual (ir separando capas de grafito hasta lograr una sola aislada, que es el nuevo material). Pero ya antes habían hecho experimentos peculiares. En 1997, Geim logró hacer levitar una rana en un campo magnético, “una forma ingeniosa de ilustrar los principios de la física”, dice la Fundación Nobel. Por aquellos experimentos con la rana, recibieron en 2000 el IgNobel de Física, uno de los galardones que se consideran Nobel alternativos y que se dan desde hace 20 años para aquellos trabajos “que primero hacen reír y después pensar”. “Creo que soy el primero que ha obtenido ambos Nobel y estoy muy orgulloso de los dos premios”, ha comentado hoy Geim. Tomado y adaptado de: http://sociedad.elpais.com/sociedad/2010/10/05/actualidad/1286229601_850215.html.",
+        "citation": "Texto del cuadernillo, pp. 4–5. Tomado y adaptado de El País (5 de octubre de 2010). Las referencias temporales corresponden a ese artículo."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-8",
+      "number": 8,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Un título fiel a la información",
+      "prompt": "¿Qué título describe adecuadamente a ambos ganadores mencionados en el artículo?",
+      "options": [
+        "Nobel de Física para dos científicos europeos por sus trabajos sobre el grafeno.",
+        "Nobel de Física para dos científicos holandeses por sus trabajos sobre el grafeno.",
+        "Nobel de Física para dos científicos británicos por sus trabajos sobre el grafeno.",
+        "Nobel de Física para dos científicos suecos por sus trabajos sobre el grafeno."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "El artículo identifica a Geim como holandés y a Novoselov como ruso-británico, y los agrupa como europeos. Las otras opciones atribuyen a ambos una misma nacionalidad no sustentada.",
+      "topic": "Un título fiel a la información",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Grafeno y Premio Nobel",
+        "body": "Andre Geim y Konstantin Novoselov, científicos de la Universidad de Manchester (Reino Unido), han sido distinguidos este año con el Premio Nobel de Física “por sus experimentos fundamentales sobre el material bidimensional grafeno”, según ha anunciado hoy el Comité Nobel de la Academia de las Ciencias de Suecia. Una lámina de carbono, de un átomo de grosor, está detrás del Nobel de Física de este año. Los dos galardonados, Geim y Novoselov, han demostrado que el carbono en esa configuración plana tiene propiedades extraordinarias originadas en el mundo de la física cuántica. El grafeno es un nuevo material, extremadamente delgado y resistente que, como conductor de la electricidad, se comporta como el cobre, y como conductor de calor, supera a cualquier otro material conocido. Es casi completamente transparente y tan denso que ni siquiera el helio, el átomo de gas más pequeño, puede atravesarlo, explica la Fundación Nobel. Geim y Novoselov, dos científicos europeos –Geim tiene nacionalidad holandesa y Novoselov es ruso-británico– obtuvieron el grafeno a partir del grafito normal, el material de las minas de los lápices, y lograron una lámina de un grosor de solo un átomo. Muchos pensaban entonces que era imposible que un material así fuera estable. Sin embargo, a partir de los trabajos de estos dos científicos, los físicos pueden estudiar ahora una nueva clase de materiales bidimensionales con propiedades únicas. El grafeno también tiene una amplia variedad de aplicaciones posibles, incluida la fabricación de nuevos materiales y de dispositivos electrónicos avanzados. Los transistores de grafeno pueden ser sustancialmente más rápidos que los actuales de silicio, con lo que se podrán fabricar ordenadores más eficaces. También, como es transparente y un buen conductor, se vislumbran aplicaciones en pantallas de dispositivos electrónicos e incluso paneles solares. Geim, en una conferencia vía telefónica, ha declarado que no esperaba el premio y que intentará evitar que esta distinción cambie su rutina. “Mi plan para hoy es ir al trabajo y terminar un artículo que tengo pendiente”, ha señalado. El Comité Nobel ha informado que Novoselov, de 36 años, es el físico más joven premiado con un Nobel desde 1973, informa la agencia Reuters. Geim y Novoselov (el segundo fue alumno de doctorado del primero) deben disfrutar con sus experimentos. Los realizados para obtener el grafeno sorprenden por su sencillez conceptual (ir separando capas de grafito hasta lograr una sola aislada, que es el nuevo material). Pero ya antes habían hecho experimentos peculiares. En 1997, Geim logró hacer levitar una rana en un campo magnético, “una forma ingeniosa de ilustrar los principios de la física”, dice la Fundación Nobel. Por aquellos experimentos con la rana, recibieron en 2000 el IgNobel de Física, uno de los galardones que se consideran Nobel alternativos y que se dan desde hace 20 años para aquellos trabajos “que primero hacen reír y después pensar”. “Creo que soy el primero que ha obtenido ambos Nobel y estoy muy orgulloso de los dos premios”, ha comentado hoy Geim. Tomado y adaptado de: http://sociedad.elpais.com/sociedad/2010/10/05/actualidad/1286229601_850215.html.",
+        "citation": "Texto del cuadernillo, pp. 4–5. Tomado y adaptado de El País (5 de octubre de 2010). Las referencias temporales corresponden a ese artículo."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-9",
+      "number": 9,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Reconocer una antítesis",
+      "prompt": "¿Qué enunciado se opone al argumento central del texto?",
+      "options": [
+        "La solución a la contaminación es la dilución.",
+        "Las iniciativas de protección marítima son casi inexistentes.",
+        "Los humanos llevan miles de años contaminando los océanos.",
+        "Los humanos advierten que la filosofía de la dilución es insostenible."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "El texto critica que diluir vertidos en un océano inmenso resuelva el problema. Presentar esa dilución como solución defiende precisamente la tesis que el artículo cuestiona.",
+      "topic": "Reconocer una antítesis",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "La contaminación marina",
+        "body": "Debido a la inmensidad y profundidad de los océanos, hasta hace poco se creía que podrían ser utilizados para verter basura y sustancias químicas en cantidades ilimitadas sin que esto tuviera consecuencias importantes. Los partidarios de continuar con los vertidos en los océanos incluso tienen un eslogan: “La solución a la contaminación es la dilución”. En la actualidad, basta con fijarse en la zona muerta del tamaño del estado de Nueva Jersey que se forma cada verano en el delta del Río Mississippi, o en la extensión de 1.600 kilómetros de plástico en descomposición en el Pacífico Norte para darse cuenta de que esta ideología de la “dilución” ha contribuido a llevar al borde del colapso lo que tiempo atrás fue un ecosistema oceánico próspero. Existen pruebas de que los océanos han sufrido a manos del hombre durante miles de años. Sin embargo, estudios recientes demuestran que la degradación, especialmente en las zonas costeras, se ha acelerado notablemente en los últimos tres siglos a medida que han aumentado los vertidos industriales y los contaminantes procedentes de explotaciones agrarias y ciudades costeras. Algunos de los contaminantes más comunes derivados de la actividad humana son los plaguicidas, fertilizantes químicos, detergentes, hidrocarburos, aguas residuales, plásticos y otros sólidos. Muchos de estos contaminantes se acumulan en las profundidades del océano, donde son ingeridos por pequeños organismos marinos a través de los cuales se introducen en la cadena alimentaria global. Los fertilizantes ricos en nitrógeno que utilizan los productores agrícolas en zonas del interior, por ejemplo, acaban en las corrientes, ríos y aguas subterráneas locales, y más tarde se depositan en los estuarios, bahías y deltas. Este exceso de nutrientes puede provocar un crecimiento masivo de algas que consumen el oxígeno del agua, lo cual genera zonas en las que no puede haber vida marina o apenas existe. Los científicos han descubierto 400 zonas muertas con estas características por todo el planeta. Los humanos comienzan a percatarse de la insostenibilidad de la filosofía de la “dilución”. Muchas leyes nacionales y protocolos internacionales prohíben en la actualidad el vertido de sustancias nocivas en los océanos, si bien su aplicación es a menudo incierta. Se están creando santuarios marinos con el fin de mantener ecosistemas marinos prístinos. Asimismo, se están llevando a cabo iniciativas aisladas que han logrado cierto éxito en la restauración de estuarios y bahías. Tomado y adaptado de: http://www.nationalgeographic.es/el-oceano/cuestiones-criticas-sobre-el-problemas-de-la- contaminacion-marina/cuestiones-criticas-sobre-el-problemas-de-la-contaminacion-marina.",
+        "citation": "Texto del cuadernillo, p. 5; tomado y adaptado de National Geographic. Las cifras corresponden al texto histórico."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-10",
+      "number": 10,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 5,
+      "title": "La función de una cifra",
+      "prompt": "La mención de 400 zonas muertas en el texto sirve para",
+      "options": [
+        "reforzar a los promotores de la dilución.",
+        "negar que aumente la contaminación marina.",
+        "apoyar el argumento sobre la contaminación marina causada por actividades humanas.",
+        "demostrar que nunca hubo contaminación en el pasado."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La cifra se presenta como evidencia del alcance de la degradación explicada en los párrafos anteriores. Refuerza la advertencia central y no la confianza en diluir contaminantes.",
+      "topic": "La función de una cifra",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "La contaminación marina",
+        "body": "Debido a la inmensidad y profundidad de los océanos, hasta hace poco se creía que podrían ser utilizados para verter basura y sustancias químicas en cantidades ilimitadas sin que esto tuviera consecuencias importantes. Los partidarios de continuar con los vertidos en los océanos incluso tienen un eslogan: “La solución a la contaminación es la dilución”. En la actualidad, basta con fijarse en la zona muerta del tamaño del estado de Nueva Jersey que se forma cada verano en el delta del Río Mississippi, o en la extensión de 1.600 kilómetros de plástico en descomposición en el Pacífico Norte para darse cuenta de que esta ideología de la “dilución” ha contribuido a llevar al borde del colapso lo que tiempo atrás fue un ecosistema oceánico próspero. Existen pruebas de que los océanos han sufrido a manos del hombre durante miles de años. Sin embargo, estudios recientes demuestran que la degradación, especialmente en las zonas costeras, se ha acelerado notablemente en los últimos tres siglos a medida que han aumentado los vertidos industriales y los contaminantes procedentes de explotaciones agrarias y ciudades costeras. Algunos de los contaminantes más comunes derivados de la actividad humana son los plaguicidas, fertilizantes químicos, detergentes, hidrocarburos, aguas residuales, plásticos y otros sólidos. Muchos de estos contaminantes se acumulan en las profundidades del océano, donde son ingeridos por pequeños organismos marinos a través de los cuales se introducen en la cadena alimentaria global. Los fertilizantes ricos en nitrógeno que utilizan los productores agrícolas en zonas del interior, por ejemplo, acaban en las corrientes, ríos y aguas subterráneas locales, y más tarde se depositan en los estuarios, bahías y deltas. Este exceso de nutrientes puede provocar un crecimiento masivo de algas que consumen el oxígeno del agua, lo cual genera zonas en las que no puede haber vida marina o apenas existe. Los científicos han descubierto 400 zonas muertas con estas características por todo el planeta. Los humanos comienzan a percatarse de la insostenibilidad de la filosofía de la “dilución”. Muchas leyes nacionales y protocolos internacionales prohíben en la actualidad el vertido de sustancias nocivas en los océanos, si bien su aplicación es a menudo incierta. Se están creando santuarios marinos con el fin de mantener ecosistemas marinos prístinos. Asimismo, se están llevando a cabo iniciativas aisladas que han logrado cierto éxito en la restauración de estuarios y bahías. Tomado y adaptado de: http://www.nationalgeographic.es/el-oceano/cuestiones-criticas-sobre-el-problemas-de-la- contaminacion-marina/cuestiones-criticas-sobre-el-problemas-de-la-contaminacion-marina.",
+        "citation": "Texto del cuadernillo, p. 5; tomado y adaptado de National Geographic. Las cifras corresponden al texto histórico."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-11",
+      "number": 11,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Recursos para argumentar",
+      "prompt": "¿Qué recurso emplea el texto para reforzar su tesis?",
+      "options": [
+        "Evidencia científica.",
+        "Únicamente un caso particular.",
+        "Solo datos gubernamentales.",
+        "Investigaciones que los autores afirman haber realizado personalmente."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "Se alude a estudios y descubrimientos científicos, junto con observaciones de zonas muertas y acumulación de residuos. El texto no atribuye esos estudios a sus propios autores.",
+      "topic": "Recursos para argumentar",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "La contaminación marina",
+        "body": "Debido a la inmensidad y profundidad de los océanos, hasta hace poco se creía que podrían ser utilizados para verter basura y sustancias químicas en cantidades ilimitadas sin que esto tuviera consecuencias importantes. Los partidarios de continuar con los vertidos en los océanos incluso tienen un eslogan: “La solución a la contaminación es la dilución”. En la actualidad, basta con fijarse en la zona muerta del tamaño del estado de Nueva Jersey que se forma cada verano en el delta del Río Mississippi, o en la extensión de 1.600 kilómetros de plástico en descomposición en el Pacífico Norte para darse cuenta de que esta ideología de la “dilución” ha contribuido a llevar al borde del colapso lo que tiempo atrás fue un ecosistema oceánico próspero. Existen pruebas de que los océanos han sufrido a manos del hombre durante miles de años. Sin embargo, estudios recientes demuestran que la degradación, especialmente en las zonas costeras, se ha acelerado notablemente en los últimos tres siglos a medida que han aumentado los vertidos industriales y los contaminantes procedentes de explotaciones agrarias y ciudades costeras. Algunos de los contaminantes más comunes derivados de la actividad humana son los plaguicidas, fertilizantes químicos, detergentes, hidrocarburos, aguas residuales, plásticos y otros sólidos. Muchos de estos contaminantes se acumulan en las profundidades del océano, donde son ingeridos por pequeños organismos marinos a través de los cuales se introducen en la cadena alimentaria global. Los fertilizantes ricos en nitrógeno que utilizan los productores agrícolas en zonas del interior, por ejemplo, acaban en las corrientes, ríos y aguas subterráneas locales, y más tarde se depositan en los estuarios, bahías y deltas. Este exceso de nutrientes puede provocar un crecimiento masivo de algas que consumen el oxígeno del agua, lo cual genera zonas en las que no puede haber vida marina o apenas existe. Los científicos han descubierto 400 zonas muertas con estas características por todo el planeta. Los humanos comienzan a percatarse de la insostenibilidad de la filosofía de la “dilución”. Muchas leyes nacionales y protocolos internacionales prohíben en la actualidad el vertido de sustancias nocivas en los océanos, si bien su aplicación es a menudo incierta. Se están creando santuarios marinos con el fin de mantener ecosistemas marinos prístinos. Asimismo, se están llevando a cabo iniciativas aisladas que han logrado cierto éxito en la restauración de estuarios y bahías. Tomado y adaptado de: http://www.nationalgeographic.es/el-oceano/cuestiones-criticas-sobre-el-problemas-de-la- contaminacion-marina/cuestiones-criticas-sobre-el-problemas-de-la-contaminacion-marina.",
+        "citation": "Texto del cuadernillo, p. 5; tomado y adaptado de National Geographic. Las cifras corresponden al texto histórico."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-12",
+      "number": 12,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Inferir una edad",
+      "prompt": "De acuerdo con el fragmento, Fermina Daza",
+      "options": [
+        "tiene exactamente 50 años.",
+        "debe tener más de 50 años.",
+        "debe tener menos de 50 años.",
+        "tiene la misma edad que tenía su esposo."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "El medio siglo mencionado corresponde al tiempo de vida compartida con el marido, no a toda su edad. Por tanto, su edad debe superar esos cincuenta años.",
+      "topic": "Inferir una edad",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Fermina Daza",
+        "body": "Fermina Daza no podía imaginarse que aquella carta suya, instigada por una rabia ciega, pudiera ser interpretada por Florentino Ariza como una carta de amor. Había puesto en ella toda la furia de que era capaz, sus palabras más crueles, los oprobios más hirientes, e injustos además, que sin embargo le parecían ínfimos frente al tamaño de la ofensa. Fue el último acto de un amargo exorcismo con el cual trataba de lograr un pacto de conciliación con su nuevo estado. Quería ser otra vez ella misma, recuperar todo cuanto había tenido que ceder en medio siglo de una servidumbre que la había hecho feliz, sin duda, pero que una vez muerto el esposo no le dejaba a ella ni los vestigios de su identidad. Era un fantasma en una casa ajena que de un día para otro se había vuelto inmensa y solitaria, y en la cual vagaba a la deriva, preguntándose angustiada quién estaba más muerto: el que había muerto o la que se había quedado. No podía sortear un recóndito sentimiento de rencor contra el marido por haberla dejado sola en medio del océano. Todo lo suyo le provocaba el llanto: la piyama debajo de la almohada, las pantuflas que siempre le parecieron de enfermo, el recuerdo de su imagen desvistiéndose en el fondo del espejo mientras ella se peinaba para dormir, el olor de su piel que había de persistir en la de ella mucho tiempo después de la muerte. Se detenía a mitad de cualquier cosa que estuviera haciendo y se daba una palmadita en la frente, porque de pronto se acordaba de algo que olvidó decirle. A cada instante le venían a la mente las tantas preguntas cotidianas que solo él le podía contestar. Alguna vez él le había dicho algo que ella no podía concebir: los amputados sienten dolores, calambres, cosquillas, en la pierna que ya no tienen. Así se sentía ella sin él, sintiéndolo estar donde ya no estaba. Tomado de: García Márquez, G. (2010). El amor en los tiempos del cólera. Barcelona, España: Editorial Debolsillo.",
+        "citation": "García Márquez, G. (2010). El amor en los tiempos del cólera. Debolsillo. Fragmento incluido en el cuadernillo, p. 6."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-13",
+      "number": 13,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 6,
+      "title": "La causa de una crisis",
+      "prompt": "La crisis que atraviesa Fermina Daza se debe principalmente a",
+      "options": [
+        "la reciente muerte de su marido.",
+        "la presencia literal de un fantasma en su casa.",
+        "una ofensa de tamaño desconocido.",
+        "una pregunta académica sin respuesta."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "El relato describe su soledad, el duelo y la persistencia del recuerdo del esposo muerto. La imagen de un fantasma expresa cómo se siente ella, no un suceso sobrenatural.",
+      "topic": "La causa de una crisis",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Fermina Daza",
+        "body": "Fermina Daza no podía imaginarse que aquella carta suya, instigada por una rabia ciega, pudiera ser interpretada por Florentino Ariza como una carta de amor. Había puesto en ella toda la furia de que era capaz, sus palabras más crueles, los oprobios más hirientes, e injustos además, que sin embargo le parecían ínfimos frente al tamaño de la ofensa. Fue el último acto de un amargo exorcismo con el cual trataba de lograr un pacto de conciliación con su nuevo estado. Quería ser otra vez ella misma, recuperar todo cuanto había tenido que ceder en medio siglo de una servidumbre que la había hecho feliz, sin duda, pero que una vez muerto el esposo no le dejaba a ella ni los vestigios de su identidad. Era un fantasma en una casa ajena que de un día para otro se había vuelto inmensa y solitaria, y en la cual vagaba a la deriva, preguntándose angustiada quién estaba más muerto: el que había muerto o la que se había quedado. No podía sortear un recóndito sentimiento de rencor contra el marido por haberla dejado sola en medio del océano. Todo lo suyo le provocaba el llanto: la piyama debajo de la almohada, las pantuflas que siempre le parecieron de enfermo, el recuerdo de su imagen desvistiéndose en el fondo del espejo mientras ella se peinaba para dormir, el olor de su piel que había de persistir en la de ella mucho tiempo después de la muerte. Se detenía a mitad de cualquier cosa que estuviera haciendo y se daba una palmadita en la frente, porque de pronto se acordaba de algo que olvidó decirle. A cada instante le venían a la mente las tantas preguntas cotidianas que solo él le podía contestar. Alguna vez él le había dicho algo que ella no podía concebir: los amputados sienten dolores, calambres, cosquillas, en la pierna que ya no tienen. Así se sentía ella sin él, sintiéndolo estar donde ya no estaba. Tomado de: García Márquez, G. (2010). El amor en los tiempos del cólera. Barcelona, España: Editorial Debolsillo.",
+        "citation": "García Márquez, G. (2010). El amor en los tiempos del cólera. Debolsillo. Fragmento incluido en el cuadernillo, p. 6."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-14",
+      "number": 14,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Un deseo de la protagonista",
+      "prompt": "Según el primer párrafo, Fermina Daza quiere",
+      "options": [
+        "recobrar su propia identidad.",
+        "reconciliarse con un antiguo amante.",
+        "responder las preguntas de su marido.",
+        "obtener la felicidad que jamás experimentó."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "El narrador dice que quería ser otra vez ella misma y recuperar lo cedido durante el matrimonio. El texto reconoce que ese matrimonio la hizo feliz, aunque ahora busca recuperar su identidad.",
+      "topic": "Un deseo de la protagonista",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Fermina Daza",
+        "body": "Fermina Daza no podía imaginarse que aquella carta suya, instigada por una rabia ciega, pudiera ser interpretada por Florentino Ariza como una carta de amor. Había puesto en ella toda la furia de que era capaz, sus palabras más crueles, los oprobios más hirientes, e injustos además, que sin embargo le parecían ínfimos frente al tamaño de la ofensa. Fue el último acto de un amargo exorcismo con el cual trataba de lograr un pacto de conciliación con su nuevo estado. Quería ser otra vez ella misma, recuperar todo cuanto había tenido que ceder en medio siglo de una servidumbre que la había hecho feliz, sin duda, pero que una vez muerto el esposo no le dejaba a ella ni los vestigios de su identidad. Era un fantasma en una casa ajena que de un día para otro se había vuelto inmensa y solitaria, y en la cual vagaba a la deriva, preguntándose angustiada quién estaba más muerto: el que había muerto o la que se había quedado. No podía sortear un recóndito sentimiento de rencor contra el marido por haberla dejado sola en medio del océano. Todo lo suyo le provocaba el llanto: la piyama debajo de la almohada, las pantuflas que siempre le parecieron de enfermo, el recuerdo de su imagen desvistiéndose en el fondo del espejo mientras ella se peinaba para dormir, el olor de su piel que había de persistir en la de ella mucho tiempo después de la muerte. Se detenía a mitad de cualquier cosa que estuviera haciendo y se daba una palmadita en la frente, porque de pronto se acordaba de algo que olvidó decirle. A cada instante le venían a la mente las tantas preguntas cotidianas que solo él le podía contestar. Alguna vez él le había dicho algo que ella no podía concebir: los amputados sienten dolores, calambres, cosquillas, en la pierna que ya no tienen. Así se sentía ella sin él, sintiéndolo estar donde ya no estaba. Tomado de: García Márquez, G. (2010). El amor en los tiempos del cólera. Barcelona, España: Editorial Debolsillo.",
+        "citation": "García Márquez, G. (2010). El amor en los tiempos del cólera. Debolsillo. Fragmento incluido en el cuadernillo, p. 6."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-16",
+      "number": 16,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 7,
+      "title": "Reconocer a los personajes",
+      "prompt": "¿Qué lista recoge a los personajes que participan de la conversación?",
+      "options": [
+        "Ermitaño, serpiente, lobos y árbol.",
+        "Ermitaño, cuervo, serpiente, gavilán y árbol.",
+        "Ermitaño, cuervo, palomo y serpiente.",
+        "Ermitaño, cuervo, palomo, serpiente y ciervo."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "Intervienen cuatro animales —cuervo, palomo, serpiente y ciervo— y al final el ermitaño. El árbol pertenece al escenario; lobos y gavilán solo se mencionan en los argumentos.",
+      "topic": "Reconocer a los personajes",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "El origen del mal",
+        "body": "En un bosque vivía un ermitaño que entendía el lenguaje de las fieras y hasta podía conversar con ellas. En una ocasión en que descansaba debajo de un árbol, se cobijaron allí un cuervo, un palomo, un ciervo y una serpiente, y empezaron a discutir sobre el origen del mal. —El mal procede del hambre —declaró el cuervo—. Cuando uno come hasta hartarse las cosas se le antojan color rosa. Pero, amigos, si durante días no se prueba bocado, cambia la situación y ya no parece tan hermosa la naturaleza. ¡Qué desasosiego! ¡Qué intranquilidad siente uno! Y si vislumbro un buen pedazo de carne, me abalanzo sobre él, ciegamente. Ni palos ni piedras, ni lobos enfurecidos serían capaces de hacerme soltar la presa. ¡Cuántos perecemos víctimas del hambre! No cabe duda de que es el origen del mal. El palomo intervino. —El mal no proviene del hambre, sino del amor. Si viviéramos solos, sin hembras, sobrellevaríamos las penas. Más ¡ay!, vivimos en pareja y amamos tanto a nuestra compañera que no hallamos un minuto de sosiego, siempre pensando en ella. Y cuando se aleja un poco de nuestro lado, nos sentimos como perdidos y nos tortura la idea de que un gavilán la haya despedazado. Empezamos a buscarla por doquier, con loco afán. Y si desaparece, uno no come ni bebe; no hace más que buscarla y llorar. ¡Cuántos mueren así entre nosotros! Ya ven que todo el mal proviene del amor. —No; el mal no viene ni del hambre ni del amor —arguyó la serpiente—. El mal viene de la ira. Si viviésemos tranquilos entonces todo iría bien. Pero, cuando algo se arregla de modo distinto a como quisiéramos, todo nos ofusca. Solo pensamos en descargar nuestra ira en el primero que encontramos. Entonces, como locos, nos retorcemos tratando de morder a alguien. En tales momentos no se tiene piedad de nadie; mordería uno a su propia madre; podríamos comernos a nosotros mismos. Sin duda alguna, todo el mal viene de la ira. El ciervo no fue de este parecer. —No, no es de la ira ni del amor ni del hambre de donde procede el mal, sino del miedo. Si fuera posible no sentir miedo, todo marcharía bien. Podemos defendernos de un animal pequeño, con nuestros cuernos, y la huida nos preserva de los grandes. Pero es imposible no sentir miedo. Apenas cruje una rama en el bosque o se mueve una hoja, temblamos de terror. El corazón palpita, como si fuera a salirse del pecho, y echamos a correr. Siempre estamos alerta, llenos de terror. No hay modo de disfrutar de un poco de tranquilidad. Por eso el origen del mal está en el miedo. Finalmente, intervino el ermitaño: —No es el hambre, el amor, la ira ni el miedo, la fuente de nuestros males, sino nuestra propia naturaleza. Ella es la que engendra el hambre, el amor, la ira y el miedo. Tomado y adaptado de: Tolstoi, L. (s. f.). El origen del mal. Recuperado de https://ciudadseva.com/texto/el-origen-del-mal/",
+        "citation": "Tolstoi, L. El origen del mal. Texto del cuadernillo, p. 7; tomado y adaptado de Ciudad Seva."
+      }
+    },
+    {
+      "id": "icfes-2023-1-lectura-17",
+      "number": 17,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2023-1",
+      "page": 7,
+      "title": "Orden de las intervenciones",
+      "prompt": "Antes de que hablara la serpiente, habían intervenido",
+      "options": [
+        "el cuervo y el palomo.",
+        "el cuervo y el ciervo.",
+        "el palomo y el ermitaño.",
+        "el palomo y el ciervo."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "El cuervo atribuye el mal al hambre y después el palomo lo atribuye al amor. La serpiente interviene a continuación; el ciervo y el ermitaño lo hacen más tarde.",
+      "topic": "Orden de las intervenciones",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "archive/2023-1/lectura.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "El origen del mal",
+        "body": "En un bosque vivía un ermitaño que entendía el lenguaje de las fieras y hasta podía conversar con ellas. En una ocasión en que descansaba debajo de un árbol, se cobijaron allí un cuervo, un palomo, un ciervo y una serpiente, y empezaron a discutir sobre el origen del mal. —El mal procede del hambre —declaró el cuervo—. Cuando uno come hasta hartarse las cosas se le antojan color rosa. Pero, amigos, si durante días no se prueba bocado, cambia la situación y ya no parece tan hermosa la naturaleza. ¡Qué desasosiego! ¡Qué intranquilidad siente uno! Y si vislumbro un buen pedazo de carne, me abalanzo sobre él, ciegamente. Ni palos ni piedras, ni lobos enfurecidos serían capaces de hacerme soltar la presa. ¡Cuántos perecemos víctimas del hambre! No cabe duda de que es el origen del mal. El palomo intervino. —El mal no proviene del hambre, sino del amor. Si viviéramos solos, sin hembras, sobrellevaríamos las penas. Más ¡ay!, vivimos en pareja y amamos tanto a nuestra compañera que no hallamos un minuto de sosiego, siempre pensando en ella. Y cuando se aleja un poco de nuestro lado, nos sentimos como perdidos y nos tortura la idea de que un gavilán la haya despedazado. Empezamos a buscarla por doquier, con loco afán. Y si desaparece, uno no come ni bebe; no hace más que buscarla y llorar. ¡Cuántos mueren así entre nosotros! Ya ven que todo el mal proviene del amor. —No; el mal no viene ni del hambre ni del amor —arguyó la serpiente—. El mal viene de la ira. Si viviésemos tranquilos entonces todo iría bien. Pero, cuando algo se arregla de modo distinto a como quisiéramos, todo nos ofusca. Solo pensamos en descargar nuestra ira en el primero que encontramos. Entonces, como locos, nos retorcemos tratando de morder a alguien. En tales momentos no se tiene piedad de nadie; mordería uno a su propia madre; podríamos comernos a nosotros mismos. Sin duda alguna, todo el mal viene de la ira. El ciervo no fue de este parecer. —No, no es de la ira ni del amor ni del hambre de donde procede el mal, sino del miedo. Si fuera posible no sentir miedo, todo marcharía bien. Podemos defendernos de un animal pequeño, con nuestros cuernos, y la huida nos preserva de los grandes. Pero es imposible no sentir miedo. Apenas cruje una rama en el bosque o se mueve una hoja, temblamos de terror. El corazón palpita, como si fuera a salirse del pecho, y echamos a correr. Siempre estamos alerta, llenos de terror. No hay modo de disfrutar de un poco de tranquilidad. Por eso el origen del mal está en el miedo. Finalmente, intervino el ermitaño: —No es el hambre, el amor, la ira ni el miedo, la fuente de nuestros males, sino nuestra propia naturaleza. Ella es la que engendra el hambre, el amor, la ira y el miedo. Tomado y adaptado de: Tolstoi, L. (s. f.). El origen del mal. Recuperado de https://ciudadseva.com/texto/el-origen-del-mal/",
+        "citation": "Tolstoi, L. El origen del mal. Texto del cuadernillo, p. 7; tomado y adaptado de Ciudad Seva."
+      }
+    },
+    {
+      "id": "icfes-2023-1-sociales-1",
+      "number": 1,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Asociación en el trabajo",
+      "prompt": "Un gerente propone impedir que empleados inconformes se movilicen o formen un sindicato y atender sus inquietudes solo individualmente. ¿Qué derecho se pone en riesgo en esta situación?",
+      "options": [
+        "Acceso a la información.",
+        "Participación política electoral.",
+        "Libertad de creencias.",
+        "Libre asociación."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "El conflicto descrito es la posibilidad de organizarse colectivamente. Atender únicamente peticiones individuales no sustituye la libertad de asociación que busca ejercer el grupo.",
+      "topic": "Asociación en el trabajo",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-2",
+      "number": 2,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Compatibilidad entre propuestas",
+      "prompt": "Para combatir la corrupción se propone: endurecer penas sin rebajas; educar para prevenirla; y eximir de toda sanción a quien pida perdón públicamente. ¿Son compatibles las tres medidas?",
+      "options": [
+        "Sí: endurecer penas siempre garantiza que la educación funcione.",
+        "No: educar hace imposible sancionar.",
+        "Sí: pedir perdón evita cualquier contradicción.",
+        "No: eximir de sanción por pedir perdón contradice imponer penas sin rebajas."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "La prevención puede coexistir con sanciones, pero las otras dos reglas se contradicen para una misma persona: no se puede exigir una pena sin rebajas y eximirla totalmente a la vez.",
+      "topic": "Compatibilidad entre propuestas",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-3",
+      "number": 3,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 2,
+      "title": "Pluralismo político",
+      "prompt": "Un movimiento propone eliminar todos los demás partidos porque afirma que solo él está libre de corrupción. ¿Qué problema democrático presenta la propuesta?",
+      "options": [
+        "Una democracia necesita obligatoriamente un partido único.",
+        "Los empresarios deben reemplazar a todos los políticos.",
+        "No habría personas suficientes para trabajar en el Estado.",
+        "Se impediría que distintos sectores estén representados mediante partidos diferentes."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "El pluralismo permite expresar intereses y visiones diversas. Una acusación de corrupción exige investigar conductas, no suprimir toda representación política distinta.",
+      "topic": "Pluralismo político",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-5",
+      "number": 5,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 3,
+      "title": "Intereses en un conflicto por el agua",
+      "prompt": "Una minera quiere desviar un río para ampliar la producción de carbón. Los habitantes, aunque se benefician del empleo minero, se oponen porque temen perder agua para sus necesidades básicas. ¿Qué intereses se enfrentan?",
+      "options": [
+        "Ambos buscan aumentar producción por encima del acceso al agua.",
+        "Ambos buscan limitar la producción por cualquier motivo.",
+        "La empresa busca producir más y la población busca proteger su bienestar y acceso al agua.",
+        "La minera busca dar agua a otros municipios y los habitantes impedirlo."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "El texto distingue el aumento de producción que busca la minera de la preocupación de los habitantes por necesidades básicas. Reconocer beneficios económicos no elimina el conflicto por el agua.",
+      "topic": "Intereses en un conflicto por el agua",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-7",
+      "number": 7,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 4,
+      "title": "El sentido del voto secreto",
+      "prompt": "Para enfrentar un posible fraude se propone publicar por quién vota cada ciudadano. ¿Qué riesgo plantea esa medida?",
+      "options": [
+        "Ninguno: publicar votos siempre evita cualquier fraude.",
+        "Solo es problemática si primero se confirma el fraude.",
+        "Ninguno: cualquier medida contra el fraude es válida.",
+        "Aunque se busque evitar fraude, conocer cada voto puede facilitar presiones sobre los votantes."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "La publicidad del voto individual puede exponer al ciudadano a represalias o coacción. Combatir el fraude no elimina la necesidad de proteger la libertad de elección.",
+      "topic": "El sentido del voto secreto",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-9",
+      "number": 9,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 4,
+      "title": "Decidir con información suficiente",
+      "prompt": "Un gobierno rompe relaciones con un vecino basándose solo en testimonios sin contrastar que interpretan movimientos militares como preparativos de invasión. ¿Cómo se evalúa esa decisión?",
+      "options": [
+        "Es adecuada mientras los testigos no sean políticos.",
+        "Es apresurada: la información puede ser insuficiente o parcial.",
+        "Es necesariamente adecuada por mencionar el interés general.",
+        "Es apresurada porque ningún testimonio campesino puede ser confiable."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La debilidad es la falta de contraste y evidencia suficiente, no la identidad social de quienes informan. Otras fuentes permitirían evaluar explicaciones alternativas de los movimientos.",
+      "topic": "Decidir con información suficiente",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-10",
+      "number": 10,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 4,
+      "title": "Concepciones del territorio",
+      "prompt": "Un informe describe comunidades indígenas donde tierra, agua, flora y fauna se usan comunitariamente, a diferencia de la propiedad individual. ¿Qué conclusión respalda el fragmento?",
+      "options": [
+        "Toda comunidad indígena protege mejor el ambiente que cualquier otro grupo.",
+        "La propiedad colectiva siempre es más rentable.",
+        "Las comunidades no han tenido ninguna influencia externa.",
+        "Hay concepciones culturales distintas sobre uso y aprovechamiento de los recursos."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "La comparación trata sobre significados y formas de posesión y uso. No ofrece datos para jerarquizar culturas, calcular rentabilidad o negar cualquier influencia externa.",
+      "topic": "Concepciones del territorio",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-11",
+      "number": 11,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Identificar una política económica",
+      "prompt": "Un texto propone facilitar importaciones, aumentar exportaciones, atraer inversión extranjera y competir con productores del exterior. ¿Qué orientación describe?",
+      "options": [
+        "Socialismo.",
+        "Proteccionismo.",
+        "Desarrollo sostenible, por definición.",
+        "Apertura económica."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "Las medidas reducen el aislamiento comercial y promueven vínculos con mercados externos. El proteccionismo busca, en cambio, restringir la competencia externa mediante barreras.",
+      "topic": "Identificar una política económica",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-13",
+      "number": 13,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 5,
+      "title": "El énfasis de una noticia",
+      "prompt": "Una noticia cuestiona una licencia para construir un hotel en un parque porque permitiría talar un bosque seco casi extinto. ¿Qué aspecto recibe mayor énfasis?",
+      "options": [
+        "La rivalidad electoral entre funcionarios.",
+        "El riesgo ambiental para los recursos del parque.",
+        "El precio de las habitaciones.",
+        "El estilo arquitectónico del hotel."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La razón central que se desarrolla es la tala de un ecosistema escaso. Otros elementos pueden estar presentes, pero no constituyen el énfasis de la información resumida.",
+      "topic": "El énfasis de una noticia",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-14",
+      "number": 14,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Clasificar la producción",
+      "prompt": "Un análisis señala que una región abastece a otros países de petróleo, hierro y cobre. ¿En qué tipo de productos se concentra esta descripción?",
+      "options": [
+        "Recursos exclusivamente renovables.",
+        "Materias primas.",
+        "Bienes manufacturados de alta tecnología.",
+        "Servicios."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Petróleo, hierro y cobre se mencionan como recursos básicos para otras actividades productivas. No son servicios ni, en esa descripción, productos industriales terminados.",
+      "topic": "Clasificar la producción",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-15",
+      "number": 15,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Transferir una solución entre contextos",
+      "prompt": "Un informe propone impedir que grupos armados financien sus operaciones saqueando recursos naturales. ¿Cuándo sería razonable aplicar esa estrategia en otra región?",
+      "options": [
+        "Nunca, si la región tiene una historia distinta.",
+        "Nunca, si las causas étnicas son diferentes.",
+        "Solo si todos sus conflictos tienen idénticas causas étnicas.",
+        "Si se comprueba que allí también se financian mediante explotación de recursos naturales."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "Para transferir una medida importa comprobar el mecanismo al que responde. Historias diferentes no impiden compartir una fuente de financiación que la estrategia busca cortar.",
+      "topic": "Transferir una solución entre contextos",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-sociales-16",
+      "number": 16,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Efectos no deseados de una política",
+      "prompt": "Para reducir costos y liberar cupos se limita al 5 % el número de estudiantes que pueden repetir grado en cada colegio. ¿Qué efecto negativo puede tener sobre la formación?",
+      "options": [
+        "Que se promueva a estudiantes que aún no dominan lo correspondiente al grado.",
+        "Que todos terminen sus estudios en igual número de años.",
+        "Que necesariamente desaparezcan los colegios públicos.",
+        "Que haya más cupos disponibles."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "Una cuota rígida puede obligar a promover estudiantes sin atender su aprendizaje. Liberar cupos es un objetivo administrativo, pero no demuestra por sí mismo mejoras educativas.",
+      "topic": "Efectos no deseados de una política",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "archive/2023-1/sociales.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-8",
+      "number": 8,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 3,
+      "title": "Making plans",
+      "prompt": "Choose the best reply: “We haven’t discussed our tour plans yet.”",
+      "options": [
+        "You poor thing.",
+        "Let’s do it now.",
+        "As late as possible."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "“Let’s do it now” propone realizar la conversación pendiente. Las otras respuestas no responden de manera pertinente a la necesidad de discutir los planes.",
+      "topic": "Making plans",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-15",
+      "number": 15,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 5,
+      "title": "The author’s purpose",
+      "prompt": "What is the author doing in the text?",
+      "options": [
+        "convincing people that smiling at others is polite",
+        "describing the consequences of not smiling",
+        "discussing the effects of smiling in difficult situations",
+        "encouraging people to smile more frequently"
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "El texto presenta razones favorables y termina invitando a sonreír más. Esa combinación revela una intención de animar al lector, no solo de describir situaciones difíciles.",
+      "topic": "The author’s purpose",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Smiling Often",
+        "body": "Smiling often has many benefits. People who smile regularly can experience an increase in their health and state of mind. Unfortunately, many people don’t smile enough. It’s a good idea to smile more often in order to feel better. Here are some reasons to smile more often.\n\nSmiling brings health benefits. It increases natural substances in the body which improve your state of mind. Besides, smiling helps your facial structure give you a more youthful look; combined with healthy teeth, smiling can make you seem healthier and more attractive. Smiling also has positive effects on the immune and cardiovascular systems.\n\nThere are psychological benefits to smiling frequently, too. It makes you happy almost immediately. Sometimes when we can’t smile, we find that anyone’s smile helps us feel better. Smiling can also reduce stress levels since the body reacts quickly to it. A great way to make someone cheerful is to help them smile.\n\nSmiling more often can also make you look more attractive and confident. In general, people like to show happiness and be near those who are happy. Smiling in the presence of others shows you are a happy person, and you can transmit the feeling to them. People are naturally attracted to smiling; therefore, smiling frequently can help you get the attention you want from others.\n\nIf you don’t smile much, find ways to smile more often; try to make others smile more often too. Smiling is a fast way to feel happy. Feeling happy and making others feel happy is very positive and will bring many benefits. Although it seems difficult, it is in fact very easy; all it takes is moving some muscles and you will be happy almost immediately.",
+        "citation": "Pasaje del cuadernillo de Inglés 2023, p. 5. Responde según el texto; sus afirmaciones no constituyen orientación médica."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ingles-16",
+      "number": 16,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Finding a paragraph’s focus",
+      "prompt": "What can the reader find out about smiling in paragraph 2?",
+      "options": [
+        "how smiling helps people appear better",
+        "how smiling shows people you are interested in them",
+        "how smiling makes people be popular",
+        "how smiling lets people transmit happiness to others"
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "El segundo párrafo relaciona la sonrisa con un aspecto más joven, saludable y atractivo. La transmisión de felicidad a otros se desarrolla después, no en ese párrafo.",
+      "topic": "Finding a paragraph’s focus",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Smiling Often",
+        "body": "Smiling often has many benefits. People who smile regularly can experience an increase in their health and state of mind. Unfortunately, many people don’t smile enough. It’s a good idea to smile more often in order to feel better. Here are some reasons to smile more often.\n\nSmiling brings health benefits. It increases natural substances in the body which improve your state of mind. Besides, smiling helps your facial structure give you a more youthful look; combined with healthy teeth, smiling can make you seem healthier and more attractive. Smiling also has positive effects on the immune and cardiovascular systems.\n\nThere are psychological benefits to smiling frequently, too. It makes you happy almost immediately. Sometimes when we can’t smile, we find that anyone’s smile helps us feel better. Smiling can also reduce stress levels since the body reacts quickly to it. A great way to make someone cheerful is to help them smile.\n\nSmiling more often can also make you look more attractive and confident. In general, people like to show happiness and be near those who are happy. Smiling in the presence of others shows you are a happy person, and you can transmit the feeling to them. People are naturally attracted to smiling; therefore, smiling frequently can help you get the attention you want from others.\n\nIf you don’t smile much, find ways to smile more often; try to make others smile more often too. Smiling is a fast way to feel happy. Feeling happy and making others feel happy is very positive and will bring many benefits. Although it seems difficult, it is in fact very easy; all it takes is moving some muscles and you will be happy almost immediately.",
+        "citation": "Pasaje del cuadernillo de Inglés 2023, p. 5. Responde según el texto; sus afirmaciones no constituyen orientación médica."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ingles-17",
+      "number": 17,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Reading for a stated effect",
+      "prompt": "According to paragraph 3, what can smiling cause in people?",
+      "options": [
+        "It makes them react to funny situations frequently.",
+        "It helps them know when they need to feel good.",
+        "It makes them want to help others to feel happy.",
+        "It helps them feel happy very quickly."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "El párrafo dice “It makes you happy almost immediately”. “Very quickly” expresa esa misma idea temporal; las otras alternativas añaden efectos que el párrafo no afirma.",
+      "topic": "Reading for a stated effect",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Smiling Often",
+        "body": "Smiling often has many benefits. People who smile regularly can experience an increase in their health and state of mind. Unfortunately, many people don’t smile enough. It’s a good idea to smile more often in order to feel better. Here are some reasons to smile more often.\n\nSmiling brings health benefits. It increases natural substances in the body which improve your state of mind. Besides, smiling helps your facial structure give you a more youthful look; combined with healthy teeth, smiling can make you seem healthier and more attractive. Smiling also has positive effects on the immune and cardiovascular systems.\n\nThere are psychological benefits to smiling frequently, too. It makes you happy almost immediately. Sometimes when we can’t smile, we find that anyone’s smile helps us feel better. Smiling can also reduce stress levels since the body reacts quickly to it. A great way to make someone cheerful is to help them smile.\n\nSmiling more often can also make you look more attractive and confident. In general, people like to show happiness and be near those who are happy. Smiling in the presence of others shows you are a happy person, and you can transmit the feeling to them. People are naturally attracted to smiling; therefore, smiling frequently can help you get the attention you want from others.\n\nIf you don’t smile much, find ways to smile more often; try to make others smile more often too. Smiling is a fast way to feel happy. Feeling happy and making others feel happy is very positive and will bring many benefits. Although it seems difficult, it is in fact very easy; all it takes is moving some muscles and you will be happy almost immediately.",
+        "citation": "Pasaje del cuadernillo de Inglés 2023, p. 5. Responde según el texto; sus afirmaciones no constituyen orientación médica."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ingles-18",
+      "number": 18,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Smiling with other people",
+      "prompt": "What does smiling do in a social situation, according to the text?",
+      "options": [
+        "It tells others you need their attention to feel confident.",
+        "It makes others do what you want and show happiness.",
+        "It shows you are happy and makes others smile, too.",
+        "It makes you look attractive and want people’s acceptance."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "El pasaje explica que sonreír muestra felicidad y puede transmitir ese sentimiento. No sostiene que permita controlar la voluntad de otras personas ni exigir aceptación.",
+      "topic": "Smiling with other people",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Smiling Often",
+        "body": "Smiling often has many benefits. People who smile regularly can experience an increase in their health and state of mind. Unfortunately, many people don’t smile enough. It’s a good idea to smile more often in order to feel better. Here are some reasons to smile more often.\n\nSmiling brings health benefits. It increases natural substances in the body which improve your state of mind. Besides, smiling helps your facial structure give you a more youthful look; combined with healthy teeth, smiling can make you seem healthier and more attractive. Smiling also has positive effects on the immune and cardiovascular systems.\n\nThere are psychological benefits to smiling frequently, too. It makes you happy almost immediately. Sometimes when we can’t smile, we find that anyone’s smile helps us feel better. Smiling can also reduce stress levels since the body reacts quickly to it. A great way to make someone cheerful is to help them smile.\n\nSmiling more often can also make you look more attractive and confident. In general, people like to show happiness and be near those who are happy. Smiling in the presence of others shows you are a happy person, and you can transmit the feeling to them. People are naturally attracted to smiling; therefore, smiling frequently can help you get the attention you want from others.\n\nIf you don’t smile much, find ways to smile more often; try to make others smile more often too. Smiling is a fast way to feel happy. Feeling happy and making others feel happy is very positive and will bring many benefits. Although it seems difficult, it is in fact very easy; all it takes is moving some muscles and you will be happy almost immediately.",
+        "citation": "Pasaje del cuadernillo de Inglés 2023, p. 5. Responde según el texto; sus afirmaciones no constituyen orientación médica."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ingles-19",
+      "number": 19,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 5,
+      "title": "Choosing a matching advertisement",
+      "prompt": "Which advertisement best matches the author’s ideas?",
+      "options": [
+        "Want to look older and more mature? Smile to control your popularity.",
+        "Want to be happy fast and easily? Smile more frequently to feel healthier, happier and more attractive.",
+        "Want to be natural? Smile to improve your teeth and figure quickly.",
+        "Want to look professional? Smile more."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La opción B reúne el bienestar, la rapidez del efecto y el atractivo mencionados en el pasaje. Las otras introducen envejecimiento, cambios dentales o profesionalismo que no representan su idea central.",
+      "topic": "Choosing a matching advertisement",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta.",
+      "context": {
+        "title": "Smiling Often",
+        "body": "Smiling often has many benefits. People who smile regularly can experience an increase in their health and state of mind. Unfortunately, many people don’t smile enough. It’s a good idea to smile more often in order to feel better. Here are some reasons to smile more often.\n\nSmiling brings health benefits. It increases natural substances in the body which improve your state of mind. Besides, smiling helps your facial structure give you a more youthful look; combined with healthy teeth, smiling can make you seem healthier and more attractive. Smiling also has positive effects on the immune and cardiovascular systems.\n\nThere are psychological benefits to smiling frequently, too. It makes you happy almost immediately. Sometimes when we can’t smile, we find that anyone’s smile helps us feel better. Smiling can also reduce stress levels since the body reacts quickly to it. A great way to make someone cheerful is to help them smile.\n\nSmiling more often can also make you look more attractive and confident. In general, people like to show happiness and be near those who are happy. Smiling in the presence of others shows you are a happy person, and you can transmit the feeling to them. People are naturally attracted to smiling; therefore, smiling frequently can help you get the attention you want from others.\n\nIf you don’t smile much, find ways to smile more often; try to make others smile more often too. Smiling is a fast way to feel happy. Feeling happy and making others feel happy is very positive and will bring many benefits. Although it seems difficult, it is in fact very easy; all it takes is moving some muscles and you will be happy almost immediately.",
+        "citation": "Pasaje del cuadernillo de Inglés 2023, p. 5. Responde según el texto; sus afirmaciones no constituyen orientación médica."
+      }
+    },
+    {
+      "id": "icfes-2023-1-ingles-20",
+      "number": 20,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 6,
+      "title": "A fruit, not a vegetable",
+      "prompt": "Scientifically speaking, a tomato is a fruit, ______ a vegetable.",
+      "options": [
+        "neither",
+        "nor",
+        "not",
+        "no"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "“Not a vegetable” niega el segundo nombre y contrasta con “a fruit”. “Neither” y “nor” requieren otra construcción, y “no a” no es correcto.",
+      "topic": "A fruit, not a vegetable",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-21",
+      "number": 21,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 6,
+      "title": "An ordinal number",
+      "prompt": "Bananas are the ______ fruit in popularity after tomatoes, according to the passage.",
+      "options": [
+        "two",
+        "both",
+        "twice",
+        "second"
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "El espacio indica una posición en una clasificación: se necesita el ordinal “second”. “Two” cuenta elementos y “twice” expresa frecuencia o multiplicación.",
+      "topic": "An ordinal number",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-22",
+      "number": 22,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 6,
+      "title": "A passive verb",
+      "prompt": "Tomatoes were first ______ by Aztecs and Incas.",
+      "options": [
+        "achieved",
+        "done",
+        "grown",
+        "invented"
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "Se cultivan plantas: “grow”, cuyo participio es “grown”. La estructura pasiva “were grown” concuerda con el agente introducido por “by”.",
+      "topic": "A passive verb",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-23",
+      "number": 23,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Introducing something to a place",
+      "prompt": "Explorers introduced the tomato ______ Europe in 1556.",
+      "options": [
+        "out",
+        "on",
+        "at",
+        "into"
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "La combinación “introduce something into” indica llevar o incorporar algo a un lugar. “On” y “at” no completan esta construcción.",
+      "topic": "Introducing something to a place",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-24",
+      "number": 24,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 6,
+      "title": "A common adjective and preposition",
+      "prompt": "Tomatoes are ______ in vitamins A and C.",
+      "options": [
+        "charged",
+        "rich",
+        "loaded",
+        "full"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La expresión es “rich in”, equivalente a rico en. “Full” se usa normalmente con “of”, que no es la preposición dada.",
+      "topic": "A common adjective and preposition",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "icfes-2023-1-ingles-25",
+      "number": 25,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2023-1",
+      "page": 6,
+      "title": "Choosing a noun by meaning",
+      "prompt": "New medical ______ suggests that eating habits can affect health.",
+      "options": [
+        "operation",
+        "prescription",
+        "drug",
+        "research"
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "“Research” se refiere a investigación que puede aportar resultados o conclusiones. Una operación, una receta o un fármaco no funcionan como la fuente de evidencia indicada por “suggests”.",
+      "topic": "Choosing a noun by meaning",
+      "competency": "Comprensión y uso del inglés",
+      "source": "archive/2023-1/ingles.pdf",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "adapted",
+      "sourceNote": "Adaptación para pantalla; consulta el enunciado original en el cuadernillo. Solución razonada de Punto, sin clave oficial adjunta."
+    },
+    {
+      "id": "punto-2025-matematicas-1",
+      "number": 1,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Calcular una media",
+      "prompt": "Los tiempos de cinco estudiantes en una actividad fueron 18, 22, 20, 24 y 21 minutos. ¿Cuál fue el tiempo promedio?",
+      "options": [
+        "20 minutos",
+        "21 minutos",
+        "22 minutos",
+        "24 minutos"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La media se obtiene sumando todos los tiempos y dividiendo entre cinco: (18+22+20+24+21)/5=105/5=21 minutos.",
+      "topic": "Calcular una media",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-matematicas-2",
+      "number": 2,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Una tarifa con impuesto variable",
+      "prompt": "Un curso compra 4 entradas de $25.000 y 3 de $40.000. El impuesto es del 8 % o del 12 %, según una temporada que no se especifica. ¿Qué se puede determinar?",
+      "options": [
+        "El total final exacto es $237.600.",
+        "El total final exacto es $246.400.",
+        "El subtotal es $220.000, pero falta la temporada para calcular un total final único.",
+        "No puede calcularse ni siquiera el subtotal."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "El subtotal es 4×25.000+3×40.000=220.000. Los dos impuestos producen totales distintos, de modo que se necesita saber cuál corresponde.",
+      "topic": "Una tarifa con impuesto variable",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-matematicas-3",
+      "number": 3,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Tiempo de descarga",
+      "prompt": "Un archivo de 24 MB se descarga a 512 KB/s. Para este ejercicio, 1 MB=1.024 KB y la velocidad es constante. ¿Cuánto tarda?",
+      "options": [
+        "24 s",
+        "48 s",
+        "96 s",
+        "512 s"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Se convierten 24 MB a 24×1.024=24.576 KB. Tiempo=tamaño/velocidad=24.576/512=48 segundos. Las unidades KB se cancelan.",
+      "topic": "Tiempo de descarga",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-matematicas-4",
+      "number": 4,
+      "area": "matematicas",
+      "discipline": "Matemáticas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Estimar una espera",
+      "prompt": "Un centro tiene 3 ventanillas disponibles. Hay 18 clientes por atender antes de tu turno y cada atención dura exactamente 5 minutos. Si las ventanillas trabajan simultáneamente y cada tanda empieza a la vez, ¿en cuánto tiempo se liberará una para ti?",
+      "options": [
+        "15 min",
+        "30 min",
+        "60 min",
+        "90 min"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Tres ventanillas atienden tres clientes por tanda. Se requieren 18/3=6 tandas de 5 minutos: 30 minutos antes de que pueda comenzar tu atención.",
+      "topic": "Estimar una espera",
+      "competency": "Razonamiento y resolución de problemas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-lectura-1",
+      "number": 1,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Detectar un salto lógico",
+      "prompt": "¿Por qué la conclusión del comentarista no se sigue necesariamente de lo que afirma la autora?",
+      "options": [
+        "Porque interpretar de maneras distintas no demuestra que el objeto interpretado sea inexistente.",
+        "Porque toda obra tiene una sola interpretación permitida.",
+        "Porque ninguna experiencia puede influir en una lectura.",
+        "Porque las obras solo existen si todos están de acuerdo."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "La premisa trata de diferencias de interpretación, mientras la conclusión niega la existencia de la obra. Para conectar ambas se necesitaría otra premisa que no se presenta.",
+      "topic": "Detectar un salto lógico",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "context": {
+        "title": "Dos afirmaciones",
+        "body": "Una autora afirma: “Las interpretaciones de una obra pueden variar según la experiencia del lector”. Un comentarista concluye: “Por tanto, ninguna obra existe fuera de la imaginación del lector”.",
+        "citation": "Texto original de Punto para practicar supuestos y relaciones entre argumentos."
+      },
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-lectura-2",
+      "number": 2,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Un supuesto en una propuesta",
+      "prompt": "Lee: “Debemos abrir la biblioteca una hora más; así quienes salen tarde del trabajo podrán visitarla”. ¿Qué supuesto necesita esta propuesta?",
+      "options": [
+        "Todos los trabajadores compran libros.",
+        "Algunas personas que salen tarde podrían acudir durante la hora adicional.",
+        "Una biblioteca solo puede funcionar de noche.",
+        "Nadie visita actualmente la biblioteca."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Para que ampliar el horario beneficie al grupo mencionado, al menos parte de ese grupo debe poder asistir en ese tiempo adicional. Las demás afirmaciones no son necesarias.",
+      "topic": "Un supuesto en una propuesta",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-lectura-3",
+      "number": 3,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Interpretar una expresión",
+      "prompt": "En el contexto, “Esta sí tiene espacio para todo” sugiere principalmente que la mesa",
+      "options": [
+        "es físicamente más grande que todos los otros muebles.",
+        "puede reemplazar cualquier habitación de la casa.",
+        "posee un valor afectivo que excede su tamaño.",
+        "se venderá por más dinero que los demás muebles."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "El recuerdo de la abuela y la carta vinculan la mesa con la memoria personal. El sentido de espacio es afectivo y figurado, no una medición de superficie.",
+      "topic": "Interpretar una expresión",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "context": {
+        "title": "La mesa del patio",
+        "body": "Al mudarse, Julia conservó una mesa pequeña y vendió los muebles más costosos. En esa mesa su abuela le había enseñado a escribir. “Esta sí tiene espacio para todo”, dijo, mientras guardaba en un cajón una carta de su infancia.",
+        "citation": "Texto narrativo original de Punto."
+      },
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-lectura-4",
+      "number": 4,
+      "area": "lectura",
+      "discipline": "Lectura Crítica",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Reconocer una objeción",
+      "prompt": "Un editorial sostiene que mejorar el transporte público puede reducir el uso de automóviles. ¿Cuál enunciado cuestiona directamente la suficiencia de esa medida?",
+      "options": [
+        "La ciudad tiene varias rutas de autobús.",
+        "Algunas personas prefieren caminar.",
+        "El transporte público existe desde hace décadas.",
+        "Si los recorridos no cubren los barrios donde viven los conductores, aumentar la frecuencia por sí solo podría no cambiar su elección."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "La objeción identifica una condición que limita la medida: accesibilidad de las rutas. Describe por qué mejorar un aspecto del servicio puede resultar insuficiente para lograr el efecto deseado.",
+      "topic": "Reconocer una objeción",
+      "competency": "Interpretación y evaluación de textos",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-sociales-1",
+      "number": 1,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Un espacio compartido",
+      "prompt": "Un grupo usa un salón comunitario los lunes de 4 a 6 p. m. Otro pide reservarlo los lunes de 5 a 7 p. m. ¿Qué información identifica el conflicto?",
+      "options": [
+        "Los grupos tienen nombres distintos.",
+        "Los horarios coinciden de 5 a 6 p. m. y el salón no puede alojarlos simultáneamente.",
+        "Uno de los grupos tiene más integrantes.",
+        "Ambos usan materiales diferentes."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "La incompatibilidad surge de solicitar el mismo recurso durante una hora común. Los nombres o materiales por sí solos no prueban que se impida el uso del espacio.",
+      "topic": "Un espacio compartido",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-sociales-2",
+      "number": 2,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Evaluar una acusación",
+      "prompt": "Una publicación acusa a un funcionario basándose en un mensaje anónimo sin pruebas. ¿Qué acción mejora la calidad de la información antes de difundir la acusación?",
+      "options": [
+        "Repetirla muchas veces.",
+        "Añadir un título más contundente.",
+        "Contrastar documentos y fuentes independientes y recoger la respuesta del señalado.",
+        "Eliminar cualquier dato que contradiga el mensaje."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "Contrastar fuentes y permitir respuesta ayuda a distinguir evidencia de rumor. La repetición o un título enfático no verifican el contenido y pueden amplificar información falsa.",
+      "topic": "Evaluar una acusación",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-sociales-3",
+      "number": 3,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Cambiar una posición con el contexto",
+      "prompt": "En una guerra, un líder defiende concentrar decisiones para coordinar recursos. Tras la paz, propone distribuir competencias regionales para limitar abusos. ¿Qué explica mejor el cambio?",
+      "options": [
+        "La distribución de competencias siempre causa guerras.",
+        "Las prioridades pasaron de coordinación militar urgente a controles del poder en una situación de paz.",
+        "El líder necesariamente dejó de valorar la libertad.",
+        "Toda propuesta posterior elimina los problemas anteriores."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Los argumentos responden a necesidades distintas: coordinar durante la guerra y limitar concentración de poder después. Cambiar de contexto puede justificar revisar una política sin una contradicción automática.",
+      "topic": "Cambiar una posición con el contexto",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-sociales-4",
+      "number": 4,
+      "area": "sociales",
+      "discipline": "Sociales y Ciudadanas",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Anticipar efectos de una inversión",
+      "prompt": "Un municipio destina casi todos los recursos de mantenimiento escolar a una sede nueva, mientras varias sedes rurales tienen techos deteriorados. ¿Qué efecto no deseado debe evaluar?",
+      "options": [
+        "Que se mantengan o agraven riesgos en las sedes que dejan de recibir recursos.",
+        "Que toda sede nueva reduzca la calidad educativa necesariamente.",
+        "Que desaparezca la necesidad de mantenimiento.",
+        "Que los estudiantes rurales dejen de necesitar transporte."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "Concentrar un presupuesto limitado puede mejorar una sede y desatender otras necesidades. Identificar ese costo de oportunidad permite evaluar efectos distributivos de la decisión.",
+      "topic": "Anticipar efectos de una inversión",
+      "competency": "Pensamiento social y análisis de perspectivas",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ciencias-1",
+      "number": 1,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Poner a prueba una generalización",
+      "prompt": "Una estudiante observa que una pieza de hierro tarda días en oxidarse y concluye que toda reacción química tarda días. ¿Qué observación refuta su conclusión?",
+      "options": [
+        "Otra pieza se oxida en una semana.",
+        "Una reacción de combustión ocurre en pocos segundos.",
+        "La pieza tiene color gris antes de oxidarse.",
+        "El experimento usa un recipiente limpio."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Una afirmación universal queda refutada por un contraejemplo válido. Una reacción que ocurre en segundos demuestra que no todas necesitan días; repetir una lenta no prueba universalidad.",
+      "topic": "Poner a prueba una generalización",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ciencias-2",
+      "number": 2,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Aislamiento y especiación",
+      "prompt": "Una población queda separada por una barrera geográfica. Tras muchas generaciones, los dos grupos dejan de reproducirse entre sí. ¿Qué secuencia describe el proceso propuesto?",
+      "options": [
+        "Dos especies → reproducción conjunta → aparece una barrera.",
+        "Barrera → desaparece todo cambio genético → una población idéntica.",
+        "Población inicial → separación geográfica → divergencia → aislamiento reproductivo.",
+        "Aislamiento reproductivo → población inicial → intercambio ilimitado de genes."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La separación reduce el flujo de genes; diferencias acumuladas pueden conducir al aislamiento reproductivo. La barrera por sí sola no garantiza de inmediato la aparición de especies distintas.",
+      "topic": "Aislamiento y especiación",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ciencias-3",
+      "number": 3,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Un tramo creciente y otro constante",
+      "prompt": "Una fuerza aumenta de manera lineal de 0 N a 12 N entre las posiciones 0 m y 3 m; después permanece en 12 N hasta 5 m. ¿Qué descripción de su gráfica es correcta?",
+      "options": [
+        "Un segmento ascendente seguido por uno horizontal.",
+        "Un segmento horizontal seguido por uno descendente.",
+        "Una sola línea horizontal en cero.",
+        "Una curva descendente en todo el intervalo."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "La pendiente es positiva durante el aumento de fuerza. Al mantenerse el valor de 12 N, la pendiente pasa a cero y el tramo de la gráfica es horizontal.",
+      "topic": "Un tramo creciente y otro constante",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ciencias-4",
+      "number": 4,
+      "area": "ciencias",
+      "discipline": "Ciencias Naturales",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Controlar variables",
+      "prompt": "Se quiere saber si la temperatura cambia la rapidez con que reacciona una tableta en agua. ¿Qué comparación es adecuada?",
+      "options": [
+        "Cambiar a la vez temperatura, cantidad de agua y tamaño de tableta.",
+        "Usar tabletas distintas sin medir el tiempo.",
+        "Comparar un vaso con agua y otro vacío.",
+        "Usar la misma cantidad de agua y tabletas equivalentes, variar solo la temperatura y medir el tiempo de reacción."
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "Al mantener las demás condiciones constantes, las diferencias observadas pueden relacionarse con la temperatura. Cambiar varios factores a la vez impide identificar cuál produjo el efecto.",
+      "topic": "Controlar variables",
+      "competency": "Explicación de fenómenos e indagación",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_1raS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ingles-1",
+      "number": 1,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Reading practical information",
+      "prompt": "According to the text, new members",
+      "options": [
+        "must buy equipment before attending.",
+        "can use equipment provided by the club.",
+        "can only attend during dry weather.",
+        "must win a competition to join."
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "“Beginners can borrow equipment” indica que el club permite usar equipo prestado. Por eso comprarlo de antemano no es un requisito.",
+      "topic": "Reading practical information",
+      "competency": "Comprensión y uso del inglés",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "context": {
+        "title": "An afternoon club",
+        "body": "The school’s outdoor games club meets on Wednesdays. Beginners can borrow equipment, so they do not need to buy any before their first lesson. If it rains, members practise indoors. Players improve by keeping a record of their attempts, rather than trying to beat others immediately.",
+        "citation": "Original reading passage by Punto."
+      },
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ingles-2",
+      "number": 2,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Understanding a condition",
+      "prompt": "What happens if it rains?",
+      "options": [
+        "The school closes permanently.",
+        "Members must buy new equipment.",
+        "The club moves its practice inside.",
+        "Every lesson is cancelled."
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "La oración condicional “If it rains, members practise indoors” responde directamente: la práctica se realiza dentro de un espacio cubierto.",
+      "topic": "Understanding a condition",
+      "competency": "Comprensión y uso del inglés",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "context": {
+        "title": "An afternoon club",
+        "body": "The school’s outdoor games club meets on Wednesdays. Beginners can borrow equipment, so they do not need to buy any before their first lesson. If it rains, members practise indoors. Players improve by keeping a record of their attempts, rather than trying to beat others immediately.",
+        "citation": "Original reading passage by Punto."
+      },
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ingles-3",
+      "number": 3,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Replying appropriately",
+      "prompt": "Choose the best reply: “Could you lend me a pencil for the activity?”",
+      "options": [
+        "Of course. Here you are.",
+        "I went there yesterday.",
+        "It is on Wednesday every week.",
+        "No, I have never visited that city."
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "La pregunta solicita un préstamo. “Of course. Here you are” acepta la petición y entrega el objeto; las otras respuestas hablan de asuntos distintos.",
+      "topic": "Replying appropriately",
+      "competency": "Comprensión y uso del inglés",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    },
+    {
+      "id": "punto-2025-ingles-4",
+      "number": 4,
+      "area": "ingles",
+      "discipline": "Inglés",
+      "period": "2025 · Práctica original",
+      "page": null,
+      "title": "Choosing a preposition",
+      "prompt": "Complete the sentence: “The club has met here ______ 2022.”",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "by"
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "Con presente perfecto, “since” introduce el punto de inicio de una situación que continúa. “For” requiere una duración, por ejemplo “for four years”.",
+      "topic": "Choosing a preposition",
+      "competency": "Comprensión y uso del inglés",
+      "source": "data/new-material.json",
+      "answerSource": "data/new-material.json",
+      "answerVerification": "independent",
+      "origin": "original",
+      "sourceNote": "Ejercicio original de Punto; no es una pregunta oficial.",
+      "referenceMaterial": "ICFES_2025CalA_2daS.pdf (referencia temática privada; no reproducida)"
+    }
+  ],
+  "notes": {
+    "2023": "60 selecciones de los cinco cuadernillos aportados; soluciones razonadas independientemente, sin clave oficial adjunta.",
+    "2025": "20 ejercicios originales de Punto sobre habilidades presentes en las dos sesiones aportadas; no transcriben los cuadernillos restringidos.",
+    "duplicates": "Se omitieron las cuatro copias idénticas de cuadernillos."
+  }
+}

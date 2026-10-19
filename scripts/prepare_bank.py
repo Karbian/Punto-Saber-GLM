@@ -130,3 +130,7 @@ for item in qs:
  assert all(a in 'ABCD' for a in item['answers'])
 (OUT/'bank.json').write_text(json.dumps({'version':1,'questions':qs,'catalog':catalog,'provenance':{'archive':'Pruebas de Estado.zip','edition':'15 de mayo de 2005','key':'respuestas.xls','explanations':'Orientaciones didácticas elaboradas para Punto. No son explicaciones oficiales del ICFES.','excluded':[{'subject':'Matemáticas','number':16,'reason':'Retirado de la calificación en el documento original.'},{'subject':'Matemáticas','number':15,'reason':'No incluido en esta selección por la formulación de probabilidad.'},{'subject':'Lenguaje','number':8,'reason':'No incluido en esta selección por la correspondencia entre enunciado y clave.'}]}},ensure_ascii=False,indent=2))
 print(json.dumps({'questions':len(qs),'pdfs':len(catalog),'areas':{a:sum(q['area']==a for q in qs) for a in ['matematicas','lectura','sociales','ciencias','ingles']}},ensure_ascii=False))
+
+# Retain the reviewed additions whenever the historical archive is rebuilt.
+from merge_material import merge
+merge()
