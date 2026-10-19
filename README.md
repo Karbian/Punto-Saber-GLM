@@ -28,3 +28,11 @@ Published source: [Karbian/Punto-Saber-GLM](https://github.com/Karbian/Punto-Sab
 New records and worked solutions are maintained in `data/new-material.json`. Run `python scripts/merge_material.py` to merge them idempotently into `bank.json`; the historical rebuild also runs this merge. Keep the five 2023 PDF sources under `archive/2023-1/`. Four duplicate uploads were omitted. The two 2025 scanned booklets carry a reproduction restriction and are not included in the public repository; their skills informed entirely new practice items with original wording, contexts and values.
 
 The design and stylesheet are unchanged. All 60 original question IDs and historical answer metadata are retained so browser-local progress remains compatible. English question 8 from 2023 correctly has three answer choices; no extra option is invented. New questions identify their source period and their independent solution provenance in practice and review.
+
+## Copyright and noncommercial license
+
+Original Punto software and original project assets are licensed under [PolyForm Noncommercial 1.0.0](LICENSE). See [COPYRIGHT.md](COPYRIGHT.md) for the copyright notice, required attribution and exact scope.
+
+The license permits noncommercial purposes and expressly permits the educational and other institutional uses specified in its terms. Preserve its terms or URL and the Required Notice when redistributing. Uses outside its permissions require a separate license.
+
+This is a **source-available, noncommercial project**, not OSI-approved open-source software. ICFES booklets, questions, answer keys, adapted extracts and other third-party works retain their original rights and are **excluded** from the project's license. Their source conditions still apply.
